@@ -2,15 +2,8 @@
 {
     partial class LoginForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,126 +15,144 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            lblTitle = new Label();
+            lblUsername = new Label();
+            lblPassword = new Label();
+            txtUsername = new TextBox();
+            txtPassword = new TextBox();
+            btnLogin = new Button();
+            linkAdmin = new LinkLabel();
+            linkForgotPass = new LinkLabel();
             SuspendLayout();
             // 
-            // label1
+            // lblTitle
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 19.875F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(385, 46);
-            label1.Name = "label1";
-            label1.Size = new Size(160, 71);
-            label1.TabIndex = 0;
-            label1.Text = "Login";
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new Font("Segoe UI Semibold", 22.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTitle.ForeColor = Color.Black;
+            lblTitle.Location = new Point(400, 40);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(182, 78);
+            lblTitle.TabIndex = 0;
+            lblTitle.Text = "Login";
             // 
-            // label2
+            // lblUsername
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 10.125F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(29, 179);
-            label2.Name = "label2";
-            label2.Size = new Size(218, 37);
-            label2.TabIndex = 1;
-            label2.Text = "Username/Email:";
+            lblUsername.AutoSize = true;
+            lblUsername.Font = new Font("Segoe UI", 10.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblUsername.ForeColor = Color.Black;
+            lblUsername.Location = new Point(14, 181);
+            lblUsername.Name = "lblUsername";
+            lblUsername.Size = new Size(251, 40);
+            lblUsername.TabIndex = 1;
+            lblUsername.Text = "Username/Email:";
             // 
-            // label3
+            // lblPassword
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 10.125F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(56, 302);
-            label3.Name = "label3";
-            label3.Size = new Size(134, 37);
-            label3.TabIndex = 2;
-            label3.Text = "Password:";
+            lblPassword.AutoSize = true;
+            lblPassword.Font = new Font("Segoe UI", 10.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblPassword.ForeColor = Color.Black;
+            lblPassword.Location = new Point(50, 297);
+            lblPassword.Name = "lblPassword";
+            lblPassword.Size = new Size(155, 40);
+            lblPassword.TabIndex = 2;
+            lblPassword.Text = "Password:";
             // 
-            // textBox1
+            // txtUsername
             // 
-            textBox1.Font = new Font("Segoe UI", 10.125F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(263, 179);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(617, 43);
-            textBox1.TabIndex = 3;
+            txtUsername.BackColor = Color.White;
+            txtUsername.Font = new Font("Segoe UI", 10F);
+            txtUsername.ForeColor = Color.Black;
+            txtUsername.Location = new Point(293, 180);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(617, 43);
+            txtUsername.TabIndex = 3;
             // 
-            // textBox2
+            // txtPassword
             // 
-            textBox2.Font = new Font("Segoe UI", 10.125F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(263, 302);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(617, 43);
-            textBox2.TabIndex = 4;
+            txtPassword.BackColor = Color.White;
+            txtPassword.Font = new Font("Segoe UI", 10F);
+            txtPassword.ForeColor = Color.Black;
+            txtPassword.Location = new Point(293, 300);
+            txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
+            txtPassword.Size = new Size(617, 43);
+            txtPassword.TabIndex = 4;
             // 
-            // button1
+            // btnLogin
             // 
-            button1.Font = new Font("Segoe UI", 10.125F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(741, 447);
-            button1.Name = "button1";
-            button1.Size = new Size(139, 71);
-            button1.TabIndex = 5;
-            button1.Text = "Sign In";
-            button1.UseVisualStyleBackColor = true;
+            btnLogin.BackColor = Color.FromArgb(64, 64, 64);
+            btnLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnLogin.ForeColor = Color.White;
+            btnLogin.Location = new Point(765, 433);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(160, 91);
+            btnLogin.TabIndex = 5;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
-            // button2
+            // linkAdmin
             // 
-            button2.Font = new Font("Segoe UI", 10.125F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(558, 447);
-            button2.Name = "button2";
-            button2.Size = new Size(155, 67);
-            button2.TabIndex = 6;
-            button2.Text = "Sign Up";
-            button2.UseVisualStyleBackColor = true;
+            linkAdmin.AutoSize = true;
+            linkAdmin.Cursor = Cursors.Hand;
+            linkAdmin.Font = new Font("Segoe UI", 12F);
+            linkAdmin.LinkColor = Color.Black;
+            linkAdmin.Location = new Point(821, 35);
+            linkAdmin.Name = "linkAdmin";
+            linkAdmin.Size = new Size(114, 45);
+            linkAdmin.TabIndex = 8;
+            linkAdmin.TabStop = true;
+            linkAdmin.Text = "Admin";
+            linkAdmin.LinkClicked += linkAdmin_LinkClicked;
             // 
-            // button3
+            // linkForgotPass
             // 
-            button3.Font = new Font("Segoe UI", 10.125F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(56, 447);
-            button3.Name = "button3";
-            button3.Size = new Size(243, 67);
-            button3.TabIndex = 7;
-            button3.Text = "Forget Password";
-            button3.UseVisualStyleBackColor = true;
+            linkForgotPass.AutoSize = true;
+            linkForgotPass.Cursor = Cursors.Hand;
+            linkForgotPass.Font = new Font("Segoe UI", 10F);
+            linkForgotPass.ForeColor = SystemColors.ControlText;
+            linkForgotPass.LinkColor = Color.Black;
+            linkForgotPass.Location = new Point(83, 477);
+            linkForgotPass.Name = "linkForgotPass";
+            linkForgotPass.Size = new Size(224, 37);
+            linkForgotPass.TabIndex = 9;
+            linkForgotPass.TabStop = true;
+            linkForgotPass.Text = "Forget Password?";
+            linkForgotPass.LinkClicked += linkForgetPass_LinkClicked;
             // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.WhiteSmoke;
             ClientSize = new Size(976, 563);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(linkForgotPass);
+            Controls.Add(linkAdmin);
+            Controls.Add(btnLogin);
+            Controls.Add(txtPassword);
+            Controls.Add(txtUsername);
+            Controls.Add(lblPassword);
+            Controls.Add(lblUsername);
+            Controls.Add(lblTitle);
             Name = "LoginForm";
-            Text = "LoginForm";
+            Text = "Login";
+            Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Label lblTitle;
+        private Label lblUsername;
+        private Label lblPassword;
+        private TextBox txtUsername;
+        private TextBox txtPassword;
+        private Button btnLogin;
+        private LinkLabel linkAdmin;
+        private LinkLabel linkForgotPass;
     }
 }
