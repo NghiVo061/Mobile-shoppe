@@ -1,6 +1,6 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
   <ItemGroup>
     <Compile Update="AddCompanyControl.cs">
       <SubType>UserControl</SubType>
@@ -17,6 +17,20 @@
     <Compile Update="AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ucDateToDateSaleReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_DaySaleReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UpdateStockControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
     <Compile Update="AdminLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -32,14 +46,6 @@
     <Compile Update="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ucDateToDateSaleReport.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UC_DaySaleReport.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UpdateStockControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
   </ItemGroup>
+>>>>>>> 017b59c03db22590d9c51d58a74f9df06a0c8092
 </Project>
