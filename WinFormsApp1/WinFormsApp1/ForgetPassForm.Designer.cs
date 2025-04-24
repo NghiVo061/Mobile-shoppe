@@ -62,7 +62,7 @@
             // 
             textBox1.Font = new Font("Segoe UI", 10.875F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.Location = new Point(356, 213);
-            textBox1.Margin = new Padding(6, 6, 6, 6);
+            textBox1.Margin = new Padding(6);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(529, 46);
             textBox1.TabIndex = 3;
@@ -71,7 +71,7 @@
             // 
             textBox2.Font = new Font("Segoe UI", 10.875F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox2.Location = new Point(356, 314);
-            textBox2.Margin = new Padding(6, 6, 6, 6);
+            textBox2.Margin = new Padding(6);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(529, 46);
             textBox2.TabIndex = 4;
@@ -79,10 +79,11 @@
             // button1
             // 
             button1.BackColor = SystemColors.GrayText;
+            button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.Window;
             button1.Location = new Point(714, 427);
-            button1.Margin = new Padding(6, 6, 6, 6);
+            button1.Margin = new Padding(6);
             button1.Name = "button1";
             button1.Size = new Size(186, 91);
             button1.TabIndex = 5;
@@ -116,7 +117,7 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(6, 6, 6, 6);
+            Margin = new Padding(6);
             Name = "ForgetPassForm";
             Text = "Forget Password";
             ResumeLayout(false);

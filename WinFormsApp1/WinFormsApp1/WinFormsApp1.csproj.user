@@ -4,7 +4,10 @@
     <Compile Update="AdminLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Employee.cs">
+    <Compile Update="ConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ForgetPassForm.cs">
@@ -15,6 +18,15 @@
     </Compile>
     <Compile Update="LoginForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SaleEmployeeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SearchCustomerEmployeeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ViewStockEmployeeForm.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>

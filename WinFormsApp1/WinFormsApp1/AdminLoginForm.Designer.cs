@@ -31,7 +31,7 @@
             lblTitle.ForeColor = Color.Black;
             lblTitle.Location = new Point(400, 40);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(250, 78);
+            lblTitle.Size = new Size(375, 78);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "Admin Login";
             // 
@@ -81,6 +81,7 @@
             // btnAdminLogin
             // 
             btnAdminLogin.BackColor = Color.FromArgb(64, 64, 64);
+            btnAdminLogin.FlatStyle = FlatStyle.Flat;
             btnAdminLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdminLogin.ForeColor = Color.White;
             btnAdminLogin.Location = new Point(765, 433);
@@ -89,7 +90,7 @@
             btnAdminLogin.TabIndex = 5;
             btnAdminLogin.Text = "Login";
             btnAdminLogin.UseVisualStyleBackColor = false;
-            btnAdminLogin.Click += new EventHandler(btnAdminLogin_Click);
+            btnAdminLogin.Click += btnAdminLogin_Click;
             // 
             // linkBackToLogin
             // 
@@ -100,18 +101,18 @@
             linkBackToLogin.LinkColor = Color.Black;
             linkBackToLogin.Location = new Point(83, 477);
             linkBackToLogin.Name = "linkBackToLogin";
-            linkBackToLogin.Size = new Size(224, 37);
+            linkBackToLogin.Size = new Size(177, 37);
             linkBackToLogin.TabIndex = 9;
             linkBackToLogin.TabStop = true;
             linkBackToLogin.Text = "Back to Login";
-            linkBackToLogin.LinkClicked += new LinkLabelLinkClickedEventHandler(linkBackToLogin_LinkClicked);
+            linkBackToLogin.LinkClicked += linkBackToLogin_LinkClicked;
             // 
             // AdminLoginForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(976, 563);
+            ClientSize = new Size(1003, 572);
             Controls.Add(linkBackToLogin);
             Controls.Add(btnAdminLogin);
             Controls.Add(txtAdminPassword);

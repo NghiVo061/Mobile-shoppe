@@ -19,4 +19,8 @@
 \\Mac\Home\Documents\XDHTTT\CuoiKi1\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
 \\Mac\Home\Documents\XDHTTT\CuoiKi1\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Properties.Resources.resources
 \\Mac\Home\Documents\XDHTTT\CuoiKi1\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AdminLoginForm.resources
-\\Mac\Home\Documents\XDHTTT\CuoiKi1\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Employee.resources
+\\Mac\Home\Documents\XDHTTT\CuoiKi1\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.EmployeeForm.resources
+\\Mac\Home\Documents\XDHTTT\CuoiKi1\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.SaleEmployeeForm.resources
+\\Mac\Home\Documents\XDHTTT\CuoiKi1\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.SearchCustomerEmployeeForm.resources
+\\Mac\Home\Documents\XDHTTT\CuoiKi1\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ViewStockEmployeeForm.resources
+\\Mac\Home\Documents\XDHTTT\CuoiKi1\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ConfirmForm.resources
