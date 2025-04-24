@@ -1,0 +1,26 @@
+# Ignore Visual Studio user-specific files
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Debug/Release folders
+**/Debug/
+**/Release/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.cache
+
+# VS Code settings (nếu dùng)
+.vscode/
