@@ -1,9 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\XDHTTTQL\\Moblie_Shoppe_Project\\mobile-shoppe\\WinFormsApp1\\",
+  "WorkspaceRootPath": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|d:\\xdhtttql\\moblie_shoppe_project\\mobile-shoppe\\winformsapp1\\winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\x\u0111ht\\mobile-shoppe\\winformsapp1\\winformsapp1\\uc_daysalereport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\uc_daysalereport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\x\u0111ht\\mobile-shoppe\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\x\u0111ht\\mobile-shoppe\\winformsapp1\\winformsapp1\\addmodelcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\addmodelcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\x\u0111ht\\mobile-shoppe\\winformsapp1\\winformsapp1\\addcompanycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\addcompanycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\addmobilecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\addmobilecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\x\u0111ht\\mobile-shoppe\\winformsapp1\\winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -14,33 +38,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UC_DaySaleReport.Designer.cs",
+              "DocumentMoniker": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\UC_DaySaleReport.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\UC_DaySaleReport.Designer.cs",
+              "ToolTip": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\UC_DaySaleReport.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\UC_DaySaleReport.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:49:23.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddModelControl.Designer.cs",
+              "DocumentMoniker": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddModelControl.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AddModelControl.Designer.cs",
+              "ToolTip": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddModelControl.Designer.cs*",
+              "RelativeToolTip": "WinFormsApp1\\AddModelControl.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:23:38.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCompanyControl.cs [Design]",
+              "DocumentMoniker": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddCompanyControl.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AddCompanyControl.cs",
+              "ToolTip": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddCompanyControl.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\AddCompanyControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:44:14.654Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddMobileControl.cs [Design]",
+              "DocumentMoniker": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddMobileControl.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AddMobileControl.cs",
+              "ToolTip": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddMobileControl.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\AddMobileControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:44:07.467Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
+              "ToolTip": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\Program.cs*",
+              "RelativeToolTip": "WinFormsApp1\\Program.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:39:02.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.Designer.cs",
+              "ToolTip": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:25:44.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AdminForm.cs [Design]",
-              "DocumentMoniker": "D:\\XDHTTTQL\\Moblie_Shoppe_Project\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs",
+              "DocumentMoniker": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AdminForm.cs",
-              "ToolTip": "D:\\XDHTTTQL\\Moblie_Shoppe_Project\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs [Design]",
+              "ToolTip": "C:\\X\u0110HT\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T00:26:30.221Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 713,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2025-04-24T00:26:30.221Z"
             }
           ]
         }
