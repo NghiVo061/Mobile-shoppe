@@ -1,0 +1,22 @@
+# Ignore Visual Studio folders
+.vs/
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore temporary or build files
+*.log
+*.tmp
+*.cache
+*.db
+*.sqlite
+
+# NuGet
+*.nupkg
+packages/
+
+# VS Code
+.vscode/
