@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HK6\\HT\\Project\\mobile-shoppe\\WinFormsApp1\\",
+  "WorkspaceRootPath": "D:\\XDHTTTQL\\Moblie_Shoppe_Project\\mobile-shoppe\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|d:\\hk6\\ht\\project\\mobile-shoppe\\winformsapp1\\winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|d:\\xdhtttql\\moblie_shoppe_project\\mobile-shoppe\\winformsapp1\\winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,13 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AdminForm.cs [Design]",
-              "DocumentMoniker": "D:\\HK6\\HT\\Project\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs",
+              "DocumentMoniker": "D:\\XDHTTTQL\\Moblie_Shoppe_Project\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AdminForm.cs",
-              "ToolTip": "D:\\HK6\\HT\\Project\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs [Design]",
+              "ToolTip": "D:\\XDHTTTQL\\Moblie_Shoppe_Project\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T00:26:30.221Z",
               "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 713,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
