@@ -28,90 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            listBox1 = new ListBox();
-            listBox2 = new ListBox();
-            textBox1 = new TextBox();
+            lblViewStockTitle = new Label();
+            lblCompanyName = new Label();
+            lblModelNumber = new Label();
+            lblAvailable = new Label();
+            comboBoxCompanyName = new ComboBox();
+            comboBoxModelNumber = new ComboBox();
+            txtAvailable = new TextBox();
             SuspendLayout();
             // 
-            // label1
+            // lblViewStockTitle
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(405, 89);
-            label1.Name = "label1";
-            label1.Size = new Size(234, 59);
-            label1.TabIndex = 0;
-            label1.Text = "ViewStock";
+            lblViewStockTitle.AutoSize = true;
+            lblViewStockTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblViewStockTitle.Location = new Point(427, 119);
+            lblViewStockTitle.Name = "lblViewStockTitle";
+            lblViewStockTitle.Size = new Size(234, 59);
+            lblViewStockTitle.TabIndex = 0;
+            lblViewStockTitle.Text = "ViewStock";
             // 
-            // label2
+            // lblCompanyName
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(129, 204);
-            label2.Name = "label2";
-            label2.Size = new Size(350, 45);
-            label2.TabIndex = 1;
-            label2.Text = "Select Company Name:";
+            lblCompanyName.AutoSize = true;
+            lblCompanyName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblCompanyName.Location = new Point(108, 247);
+            lblCompanyName.Name = "lblCompanyName";
+            lblCompanyName.Size = new Size(350, 45);
+            lblCompanyName.TabIndex = 1;
+            lblCompanyName.Text = "Select Company Name:";
             // 
-            // label3
+            // lblModelNumber
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F);
-            label3.Location = new Point(129, 408);
-            label3.Name = "label3";
-            label3.Size = new Size(248, 45);
-            label3.TabIndex = 2;
-            label3.Text = "Select Available:";
-            label3.Click += label3_Click;
+            lblModelNumber.AutoSize = true;
+            lblModelNumber.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblModelNumber.Location = new Point(108, 340);
+            lblModelNumber.Name = "lblModelNumber";
+            lblModelNumber.Size = new Size(339, 45);
+            lblModelNumber.TabIndex = 2;
+            lblModelNumber.Text = "Select Model Number:";
             // 
-            // label4
+            // lblAvailable
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F);
-            label4.Location = new Point(129, 309);
-            label4.Name = "label4";
-            label4.Size = new Size(339, 45);
-            label4.TabIndex = 3;
-            label4.Text = "Select Model Number:";
+            lblAvailable.AutoSize = true;
+            lblAvailable.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblAvailable.Location = new Point(108, 429);
+            lblAvailable.Name = "lblAvailable";
+            lblAvailable.Size = new Size(248, 45);
+            lblAvailable.TabIndex = 3;
+            lblAvailable.Text = "Select Available:";
+            lblAvailable.Click += label3_Click;
             // 
-            // listBox1
+            // comboBoxCompanyName
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(524, 204);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(396, 36);
-            listBox1.TabIndex = 4;
+            comboBoxCompanyName.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxCompanyName.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBoxCompanyName.FormattingEnabled = true;
+            comboBoxCompanyName.Location = new Point(488, 247);
+            comboBoxCompanyName.Name = "comboBoxCompanyName";
+            comboBoxCompanyName.Size = new Size(450, 45);
+            comboBoxCompanyName.TabIndex = 4;
             // 
-            // listBox2
+            // comboBoxModelNumber
             // 
-            listBox2.FormattingEnabled = true;
-            listBox2.Location = new Point(524, 318);
-            listBox2.Name = "listBox2";
-            listBox2.Size = new Size(396, 36);
-            listBox2.TabIndex = 5;
+            comboBoxModelNumber.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxModelNumber.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBoxModelNumber.FormattingEnabled = true;
+            comboBoxModelNumber.Location = new Point(488, 340);
+            comboBoxModelNumber.Name = "comboBoxModelNumber";
+            comboBoxModelNumber.Size = new Size(450, 45);
+            comboBoxModelNumber.TabIndex = 5;
             // 
-            // textBox1
+            // txtAvailable
             // 
-            textBox1.Location = new Point(524, 417);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(394, 39);
-            textBox1.TabIndex = 6;
+            txtAvailable.BackColor = SystemColors.Window;
+            txtAvailable.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtAvailable.Location = new Point(488, 429);
+            txtAvailable.Name = "txtAvailable";
+            txtAvailable.ReadOnly = true;
+            txtAvailable.Size = new Size(450, 43);
+            txtAvailable.TabIndex = 6;
             // 
             // ViewStockEmployeeForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(textBox1);
-            Controls.Add(listBox2);
-            Controls.Add(listBox1);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(txtAvailable);
+            Controls.Add(comboBoxModelNumber);
+            Controls.Add(comboBoxCompanyName);
+            Controls.Add(lblAvailable);
+            Controls.Add(lblModelNumber);
+            Controls.Add(lblCompanyName);
+            Controls.Add(lblViewStockTitle);
             Name = "ViewStockEmployeeForm";
             Size = new Size(1147, 960);
             Load += ViewStockEmployeeForm_Load;
@@ -121,12 +128,12 @@
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private ListBox listBox1;
-        private ListBox listBox2;
-        private TextBox textBox1;
+        private Label lblViewStockTitle;
+        private Label lblCompanyName;
+        private Label lblModelNumber;
+        private Label lblAvailable;
+        private ComboBox comboBoxCompanyName;
+        private ComboBox comboBoxModelNumber;
+        private TextBox txtAvailable;
     }
 }

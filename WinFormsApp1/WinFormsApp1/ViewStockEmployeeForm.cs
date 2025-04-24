@@ -17,19 +17,17 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
+        // Xử lý sự kiện khi nhấp vào label "Select Available"
         private void label3_Click(object sender, EventArgs e)
         {
-
+            // Hiện tại để trống, bạn có thể thêm logic nếu cần
         }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        // Xử lý sự kiện khi form được tải
         private void ViewStockEmployeeForm_Load(object sender, EventArgs e)
         {
-
+            // Hiện tại để trống, bạn có thể thêm logic nếu cần
+            // Ví dụ: tải danh sách công ty và model vào comboBoxCompanyName và comboBoxModelNumber
         }
     }
 }
