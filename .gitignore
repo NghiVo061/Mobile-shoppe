@@ -1,0 +1,4 @@
+# Bỏ qua thư mục Visual Studio và các file build
+.vs/
+bin/
+obj/
