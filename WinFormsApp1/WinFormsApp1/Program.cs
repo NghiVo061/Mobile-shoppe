@@ -14,7 +14,7 @@ namespace WinFormsApp1
             Application.SetCompatibleTextRenderingDefault(false);
 
             // Kh?i ??ng ?ng d?ng v?i AdminForm
-            Application.Run(new AdminForm());
+            Application.Run(new EmployeeForm());
         }
     }
 }

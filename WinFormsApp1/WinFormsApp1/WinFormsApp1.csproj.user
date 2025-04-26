@@ -16,8 +16,29 @@
     <Compile Update="AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="AdminLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ForgetPassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SaleEmployeeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SearchCustomerEmployeeForm.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="ucDateToDateSaleReport.cs">
       <SubType>UserControl</SubType>
@@ -26,6 +47,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UpdateStockControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ViewStockEmployeeForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
