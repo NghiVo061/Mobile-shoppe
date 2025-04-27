@@ -5,6 +5,7 @@ namespace WinFormsApp1
 {
     public partial class LoginForm : Form
     {
+        private string connectionString = "Data Source=DESKTOP-TU6VN7B;Initial Catalog=MobileShopedb;Integrated Security=True;Trust Server Certificate=True";
         public LoginForm()
         {
             InitializeComponent();
