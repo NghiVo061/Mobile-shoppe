@@ -165,6 +165,7 @@
             btnAddEmployee.TabIndex = 14;
             btnAddEmployee.Text = "Add";
             btnAddEmployee.UseVisualStyleBackColor = true;
+            btnAddEmployee.Click += btnAddEmployee_Click_1;
             // 
             // AddEmployeeControl
             // 
