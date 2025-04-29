@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using Microsoft.Data.SqlClient;
+using System;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
@@ -15,24 +11,63 @@ namespace WinFormsApp1
         public SearchCustomerEmployeeForm()
         {
             InitializeComponent();
+            dataGridViewResults.AutoGenerateColumns = true; // 👈 Quan trọng
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            // Lấy số IMEI từ TextBox
-            string imei = txtIMEI.Text;
+            string imei = txtIMEI.Text.Trim();
 
-            // Kiểm tra nếu IMEI không rỗng
-            if (!string.IsNullOrEmpty(imei))
+            if (string.IsNullOrWhiteSpace(imei))
             {
-                // Giả lập dữ liệu (thay thế bằng logic truy vấn cơ sở dữ liệu nếu có)
-                dataGridViewResults.Rows.Clear();
-                dataGridViewResults.Rows.Add("Raju", "9899756142", "raju@gmail.com", "Hyderabad");
+                MessageBox.Show("IMEI cannot be empty.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            else
+
+            if (imei.Length != 15 || !imei.All(char.IsDigit))
             {
-                MessageBox.Show("Please enter an IMEI number.", "Input Required", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("IMEI must be 15 digits.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(@"Server=RANG_DONG\MSSQLSERVER01;Database=MobileShopedb;Integrated Security=True;Encrypt=False;"))
+                {
+                    conn.Open();
+                    string query = @"
+                        SELECT c.Cust_Name, c.MobileNumber, c.EmailId, c.Address
+                        FROM tbl_Sales s
+                        JOIN tbl_Customer c ON s.CustId = c.CustId
+                        WHERE s.IMEINO = @imei";
+
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@imei", imei);
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    if (dt.Rows.Count == 0)
+                    {
+                        MessageBox.Show("No customer found with this IMEI.", "Search Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                    dataGridViewResults.DataSource = dt;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void SearchCustomerEmployeeForm_Load(object sender, EventArgs e)
+        {
+            dataGridViewResults.AutoGenerateColumns = true; // để an toàn gán thêm lần nữa
+        }
+
+        private void txtIMEI_TextChanged(object sender, EventArgs e)
+        {
         }
     }
 }

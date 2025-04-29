@@ -41,20 +41,21 @@
             labelPrice = new Label();
             btnSubmit = new Button();
             txtPrice = new TextBox();
-            txtIMEI = new TextBox();
-            txtModelNumber = new TextBox();
-            txtCompanyName = new TextBox();
             txtEmail = new TextBox();
             txtAddress = new TextBox();
+            comboCompanyName = new ComboBox();
+            comboModelNo = new ComboBox();
+            comboIMEI = new ComboBox();
             SuspendLayout();
             // 
             // labelTitle
             // 
             labelTitle.AutoSize = true;
             labelTitle.Font = new Font("Segoe UI", 16.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelTitle.Location = new Point(566, 30);
+            labelTitle.Location = new Point(435, 23);
+            labelTitle.Margin = new Padding(2, 0, 2, 0);
             labelTitle.Name = "labelTitle";
-            labelTitle.Size = new Size(126, 59);
+            labelTitle.Size = new Size(99, 45);
             labelTitle.TabIndex = 0;
             labelTitle.Text = "Sales";
             // 
@@ -62,18 +63,20 @@
             // 
             labelCustomerName.AutoSize = true;
             labelCustomerName.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelCustomerName.Location = new Point(125, 130);
+            labelCustomerName.Location = new Point(96, 102);
+            labelCustomerName.Margin = new Padding(2, 0, 2, 0);
             labelCustomerName.Name = "labelCustomerName";
-            labelCustomerName.Size = new Size(209, 37);
+            labelCustomerName.Size = new Size(153, 28);
             labelCustomerName.TabIndex = 1;
             labelCustomerName.Text = "Customer Name";
             // 
             // txtCustomerName
             // 
             txtCustomerName.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtCustomerName.Location = new Point(454, 130);
+            txtCustomerName.Location = new Point(349, 102);
+            txtCustomerName.Margin = new Padding(2);
             txtCustomerName.Name = "txtCustomerName";
-            txtCustomerName.Size = new Size(522, 43);
+            txtCustomerName.Size = new Size(402, 34);
             txtCustomerName.TabIndex = 2;
             txtCustomerName.TextChanged += txtCustomerName_TextChanged;
             // 
@@ -81,27 +84,30 @@
             // 
             labelMobileNumber.AutoSize = true;
             labelMobileNumber.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelMobileNumber.Location = new Point(133, 189);
+            labelMobileNumber.Location = new Point(102, 148);
+            labelMobileNumber.Margin = new Padding(2, 0, 2, 0);
             labelMobileNumber.Name = "labelMobileNumber";
-            labelMobileNumber.Size = new Size(205, 37);
+            labelMobileNumber.Size = new Size(151, 28);
             labelMobileNumber.TabIndex = 3;
             labelMobileNumber.Text = "Mobile Number";
             // 
             // txtMobileNumber
             // 
             txtMobileNumber.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtMobileNumber.Location = new Point(454, 189);
+            txtMobileNumber.Location = new Point(349, 148);
+            txtMobileNumber.Margin = new Padding(2);
             txtMobileNumber.Name = "txtMobileNumber";
-            txtMobileNumber.Size = new Size(522, 43);
+            txtMobileNumber.Size = new Size(402, 34);
             txtMobileNumber.TabIndex = 4;
             // 
             // labelAddress
             // 
             labelAddress.AutoSize = true;
             labelAddress.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelAddress.Location = new Point(169, 253);
+            labelAddress.Location = new Point(130, 198);
+            labelAddress.Margin = new Padding(2, 0, 2, 0);
             labelAddress.Name = "labelAddress";
-            labelAddress.Size = new Size(111, 37);
+            labelAddress.Size = new Size(82, 28);
             labelAddress.TabIndex = 5;
             labelAddress.Text = "Address";
             // 
@@ -109,9 +115,10 @@
             // 
             labelEmail.AutoSize = true;
             labelEmail.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelEmail.Location = new Point(169, 315);
+            labelEmail.Location = new Point(130, 246);
+            labelEmail.Margin = new Padding(2, 0, 2, 0);
             labelEmail.Name = "labelEmail";
-            labelEmail.Size = new Size(115, 37);
+            labelEmail.Size = new Size(83, 28);
             labelEmail.TabIndex = 7;
             labelEmail.Text = "Email ID";
             // 
@@ -119,9 +126,10 @@
             // 
             labelCompanyName.AutoSize = true;
             labelCompanyName.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelCompanyName.Location = new Point(135, 370);
+            labelCompanyName.Location = new Point(104, 289);
+            labelCompanyName.Margin = new Padding(2, 0, 2, 0);
             labelCompanyName.Name = "labelCompanyName";
-            labelCompanyName.Size = new Size(209, 37);
+            labelCompanyName.Size = new Size(153, 28);
             labelCompanyName.TabIndex = 9;
             labelCompanyName.Text = "Company Name";
             // 
@@ -129,9 +137,10 @@
             // 
             labelModelNumber.AutoSize = true;
             labelModelNumber.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelModelNumber.Location = new Point(146, 439);
+            labelModelNumber.Location = new Point(112, 343);
+            labelModelNumber.Margin = new Padding(2, 0, 2, 0);
             labelModelNumber.Name = "labelModelNumber";
-            labelModelNumber.Size = new Size(198, 37);
+            labelModelNumber.Size = new Size(146, 28);
             labelModelNumber.TabIndex = 11;
             labelModelNumber.Text = "Model Number";
             // 
@@ -139,9 +148,10 @@
             // 
             labelIMEI.AutoSize = true;
             labelIMEI.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelIMEI.Location = new Point(161, 507);
+            labelIMEI.Location = new Point(124, 396);
+            labelIMEI.Margin = new Padding(2, 0, 2, 0);
             labelIMEI.Name = "labelIMEI";
-            labelIMEI.Size = new Size(173, 37);
+            labelIMEI.Size = new Size(127, 28);
             labelIMEI.TabIndex = 13;
             labelIMEI.Text = "IMEI Number";
             // 
@@ -149,18 +159,20 @@
             // 
             labelPrice.AutoSize = true;
             labelPrice.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelPrice.Location = new Point(206, 586);
+            labelPrice.Location = new Point(158, 458);
+            labelPrice.Margin = new Padding(2, 0, 2, 0);
             labelPrice.Name = "labelPrice";
-            labelPrice.Size = new Size(74, 37);
+            labelPrice.Size = new Size(54, 28);
             labelPrice.TabIndex = 15;
             labelPrice.Text = "Price";
             // 
             // btnSubmit
             // 
             btnSubmit.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSubmit.Location = new Point(625, 685);
+            btnSubmit.Location = new Point(481, 535);
+            btnSubmit.Margin = new Padding(2);
             btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new Size(202, 101);
+            btnSubmit.Size = new Size(155, 79);
             btnSubmit.TabIndex = 17;
             btnSubmit.Text = "SUBMIT";
             btnSubmit.UseVisualStyleBackColor = true;
@@ -169,63 +181,69 @@
             // txtPrice
             // 
             txtPrice.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtPrice.Location = new Point(454, 583);
+            txtPrice.Location = new Point(349, 455);
+            txtPrice.Margin = new Padding(2);
             txtPrice.Name = "txtPrice";
-            txtPrice.Size = new Size(522, 43);
+            txtPrice.Size = new Size(402, 34);
             txtPrice.TabIndex = 16;
-            // 
-            // txtIMEI
-            // 
-            txtIMEI.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtIMEI.Location = new Point(454, 507);
-            txtIMEI.Name = "txtIMEI";
-            txtIMEI.Size = new Size(522, 43);
-            txtIMEI.TabIndex = 14;
-            // 
-            // txtModelNumber
-            // 
-            txtModelNumber.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtModelNumber.Location = new Point(454, 439);
-            txtModelNumber.Name = "txtModelNumber";
-            txtModelNumber.Size = new Size(522, 43);
-            txtModelNumber.TabIndex = 12;
-            // 
-            // txtCompanyName
-            // 
-            txtCompanyName.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtCompanyName.Location = new Point(454, 370);
-            txtCompanyName.Name = "txtCompanyName";
-            txtCompanyName.Size = new Size(522, 43);
-            txtCompanyName.TabIndex = 10;
             // 
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtEmail.Location = new Point(454, 309);
+            txtEmail.Location = new Point(349, 241);
+            txtEmail.Margin = new Padding(2);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(522, 43);
+            txtEmail.Size = new Size(402, 34);
             txtEmail.TabIndex = 8;
             // 
             // txtAddress
             // 
             txtAddress.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtAddress.Location = new Point(454, 253);
+            txtAddress.Location = new Point(349, 198);
+            txtAddress.Margin = new Padding(2);
             txtAddress.Name = "txtAddress";
-            txtAddress.Size = new Size(522, 43);
+            txtAddress.Size = new Size(402, 34);
             txtAddress.TabIndex = 6;
+            // 
+            // comboCompanyName
+            // 
+            comboCompanyName.FormattingEnabled = true;
+            comboCompanyName.Location = new Point(349, 289);
+            comboCompanyName.Name = "comboCompanyName";
+            comboCompanyName.Size = new Size(402, 33);
+            comboCompanyName.TabIndex = 18;
+            comboCompanyName.SelectedIndexChanged += comboCompanyName_SelectedIndexChanged;
+            // 
+            // comboModelNo
+            // 
+            comboModelNo.FormattingEnabled = true;
+            comboModelNo.Location = new Point(349, 338);
+            comboModelNo.Name = "comboModelNo";
+            comboModelNo.Size = new Size(402, 33);
+            comboModelNo.TabIndex = 19;
+            comboModelNo.SelectedIndexChanged += comboModelNo_SelectedIndexChanged;
+            // 
+            // comboIMEI
+            // 
+            comboIMEI.FormattingEnabled = true;
+            comboIMEI.Location = new Point(349, 391);
+            comboIMEI.Name = "comboIMEI";
+            comboIMEI.Size = new Size(402, 33);
+            comboIMEI.TabIndex = 20;
+            comboIMEI.SelectedIndexChanged += comboIMEI_SelectedIndexChanged;
             // 
             // SaleEmployeeForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(comboIMEI);
+            Controls.Add(comboModelNo);
+            Controls.Add(comboCompanyName);
             Controls.Add(btnSubmit);
             Controls.Add(txtPrice);
             Controls.Add(labelPrice);
-            Controls.Add(txtIMEI);
             Controls.Add(labelIMEI);
-            Controls.Add(txtModelNumber);
             Controls.Add(labelModelNumber);
-            Controls.Add(txtCompanyName);
             Controls.Add(labelCompanyName);
             Controls.Add(txtEmail);
             Controls.Add(labelEmail);
@@ -236,8 +254,10 @@
             Controls.Add(txtCustomerName);
             Controls.Add(labelCustomerName);
             Controls.Add(labelTitle);
+            Margin = new Padding(2);
             Name = "SaleEmployeeForm";
-            Size = new Size(1239, 985);
+            Size = new Size(953, 770);
+            Load += SaleEmployeeForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -257,10 +277,10 @@
         private System.Windows.Forms.Label labelPrice;
         private System.Windows.Forms.Button btnSubmit;
         private TextBox txtPrice;
-        private TextBox txtIMEI;
-        private TextBox txtModelNumber;
-        private TextBox txtCompanyName;
         private TextBox txtEmail;
         private TextBox txtAddress;
+        private ComboBox comboCompanyName;
+        private ComboBox comboModelNo;
+        private ComboBox comboIMEI;
     }
 }

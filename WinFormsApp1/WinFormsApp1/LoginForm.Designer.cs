@@ -32,9 +32,10 @@
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI Semibold", 22.125F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitle.ForeColor = Color.Black;
-            lblTitle.Location = new Point(400, 40);
+            lblTitle.Location = new Point(308, 31);
+            lblTitle.Margin = new Padding(2, 0, 2, 0);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(182, 78);
+            lblTitle.Size = new Size(141, 61);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "Login";
             // 
@@ -43,9 +44,10 @@
             lblUsername.AutoSize = true;
             lblUsername.Font = new Font("Segoe UI", 10.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblUsername.ForeColor = Color.Black;
-            lblUsername.Location = new Point(14, 181);
+            lblUsername.Location = new Point(11, 141);
+            lblUsername.Margin = new Padding(2, 0, 2, 0);
             lblUsername.Name = "lblUsername";
-            lblUsername.Size = new Size(251, 40);
+            lblUsername.Size = new Size(189, 30);
             lblUsername.TabIndex = 1;
             lblUsername.Text = "Username/Email:";
             // 
@@ -54,9 +56,10 @@
             lblPassword.AutoSize = true;
             lblPassword.Font = new Font("Segoe UI", 10.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblPassword.ForeColor = Color.Black;
-            lblPassword.Location = new Point(50, 297);
+            lblPassword.Location = new Point(38, 232);
+            lblPassword.Margin = new Padding(2, 0, 2, 0);
             lblPassword.Name = "lblPassword";
-            lblPassword.Size = new Size(155, 40);
+            lblPassword.Size = new Size(118, 30);
             lblPassword.TabIndex = 2;
             lblPassword.Text = "Password:";
             // 
@@ -65,9 +68,10 @@
             txtUsername.BackColor = Color.White;
             txtUsername.Font = new Font("Segoe UI", 10F);
             txtUsername.ForeColor = Color.Black;
-            txtUsername.Location = new Point(293, 180);
+            txtUsername.Location = new Point(225, 141);
+            txtUsername.Margin = new Padding(2, 2, 2, 2);
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(617, 43);
+            txtUsername.Size = new Size(476, 34);
             txtUsername.TabIndex = 3;
             // 
             // txtPassword
@@ -75,10 +79,11 @@
             txtPassword.BackColor = Color.White;
             txtPassword.Font = new Font("Segoe UI", 10F);
             txtPassword.ForeColor = Color.Black;
-            txtPassword.Location = new Point(293, 300);
+            txtPassword.Location = new Point(225, 234);
+            txtPassword.Margin = new Padding(2, 2, 2, 2);
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
-            txtPassword.Size = new Size(617, 43);
+            txtPassword.Size = new Size(476, 34);
             txtPassword.TabIndex = 4;
             // 
             // btnLogin
@@ -87,9 +92,10 @@
             btnLogin.FlatStyle = FlatStyle.Flat;
             btnLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLogin.ForeColor = Color.White;
-            btnLogin.Location = new Point(765, 433);
+            btnLogin.Location = new Point(588, 338);
+            btnLogin.Margin = new Padding(2, 2, 2, 2);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(160, 91);
+            btnLogin.Size = new Size(123, 71);
             btnLogin.TabIndex = 5;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = false;
@@ -101,9 +107,10 @@
             linkAdmin.Cursor = Cursors.Hand;
             linkAdmin.Font = new Font("Segoe UI", 12F);
             linkAdmin.LinkColor = Color.Black;
-            linkAdmin.Location = new Point(821, 35);
+            linkAdmin.Location = new Point(632, 27);
+            linkAdmin.Margin = new Padding(2, 0, 2, 0);
             linkAdmin.Name = "linkAdmin";
-            linkAdmin.Size = new Size(114, 45);
+            linkAdmin.Size = new Size(84, 32);
             linkAdmin.TabIndex = 8;
             linkAdmin.TabStop = true;
             linkAdmin.Text = "Admin";
@@ -116,9 +123,10 @@
             linkForgotPass.Font = new Font("Segoe UI", 10F);
             linkForgotPass.ForeColor = SystemColors.ControlText;
             linkForgotPass.LinkColor = Color.Black;
-            linkForgotPass.Location = new Point(83, 477);
+            linkForgotPass.Location = new Point(64, 373);
+            linkForgotPass.Margin = new Padding(2, 0, 2, 0);
             linkForgotPass.Name = "linkForgotPass";
-            linkForgotPass.Size = new Size(224, 37);
+            linkForgotPass.Size = new Size(165, 28);
             linkForgotPass.TabIndex = 9;
             linkForgotPass.TabStop = true;
             linkForgotPass.Text = "Forget Password?";
@@ -126,10 +134,10 @@
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(976, 563);
+            ClientSize = new Size(751, 440);
             Controls.Add(linkForgotPass);
             Controls.Add(linkAdmin);
             Controls.Add(btnLogin);
@@ -138,8 +146,9 @@
             Controls.Add(lblPassword);
             Controls.Add(lblUsername);
             Controls.Add(lblTitle);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "LoginForm";
-            Text = "Login";
+            Text = " ";
             Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
