@@ -13,9 +13,9 @@ namespace WinFormsApp1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Kh?i ??ng ?ng d?ng v?i AdminForm
+            // Khoi tao ung dung voi LoginForm
             //Application.Run(new EmployeeForm());
-            Application.Run(new AdminForm());
+            Application.Run(new LoginForm());
         }
     }
 }

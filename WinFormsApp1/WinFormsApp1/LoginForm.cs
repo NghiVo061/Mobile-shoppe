@@ -1,30 +1,67 @@
-﻿using System;
+﻿using mobileshope;
+using System;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
     public partial class LoginForm : Form
     {
-        private string connectionString = "Data Source=DESKTOP-TU6VN7B;Initial Catalog=MobileShopedb;Integrated Security=True;Trust Server Certificate=True";
+        private string connectionString = "Data Source=DESKTOP-TU6VN7B;Initial Catalog=MobileShopedb;Integrated Security=True";
         public LoginForm()
         {
-            InitializeComponent();
+            InitializeComponent();          
         }
+
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
-            // Kiểm tra đăng nhập đơn giản
-            if (username == "admin" && password == "1234")
+            // logic chuc nang dang nhap
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-                MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                // Có thể mở form chính ở đây
+                MessageBox.Show("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            else
+
+            try
             {
-                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    string query = "SELECT UserName, EmployeeName FROM tbl_User WHERE UserName = @username AND PWD = @password";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@username", username);
+                    cmd.Parameters.AddWithValue("@password", password);
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        string userName = reader["UserName"].ToString();
+                        if (userName.ToLower()=="admin1")
+                        {
+                            AdminForm adminForm = new AdminForm();
+                            adminForm.Show();
+                        }
+                        else
+                        {
+                            EmployeeForm employeeForm = new EmployeeForm();
+                            employeeForm.Show();
+                        }
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
