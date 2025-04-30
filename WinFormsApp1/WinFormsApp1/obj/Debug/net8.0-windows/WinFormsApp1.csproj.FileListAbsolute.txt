@@ -1,0 +1,83 @@
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\mobileshope.AdminForm.resources
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddCompanyControl.resources
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddModelControl.resources
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddMobileControl.resources
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.UpdateStockControl.resources
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddEmployeeControl.resources
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.UC_DaySaleReport.resources
+C:\Users\Acer\source\repos\mobileshope2\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucDateToDateSaleReport.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddCompanyControl.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddEmployeeControl.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddMobileControl.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddModelControl.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\mobileshope.AdminForm.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucDateToDateSaleReport.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.UC_DaySaleReport.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.UpdateStockControl.resources
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+D:\HK6\HT\Project\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddCompanyControl.resources
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddEmployeeControl.resources
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddMobileControl.resources
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AddModelControl.resources
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\mobileshope.AdminForm.resources
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.ucDateToDateSaleReport.resources
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.UC_DaySaleReport.resources
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.UpdateStockControl.resources
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinForms.E4050A35.Up2Date
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\HUY\OneDrive - ut.edu.vn\Máy tính\XHPMHTQL\mobile-shoppe\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
