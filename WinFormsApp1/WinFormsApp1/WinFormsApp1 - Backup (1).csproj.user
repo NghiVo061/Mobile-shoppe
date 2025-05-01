@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AddCompanyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AddEmployeeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AddMobileControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AddModelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+<<<<<<< HEAD
+    <Compile Update="ConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EmployeeForm.cs">
+=======
+    <Compile Update="Employee.cs">
+>>>>>>> b15efc742110c9ed2387cef864d220433f5d5e02
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ForgetPassForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+<<<<<<< HEAD
+    <Compile Update="SaleEmployeeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SearchCustomerEmployeeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+=======
+>>>>>>> b15efc742110c9ed2387cef864d220433f5d5e02
+    <Compile Update="ucDateToDateSaleReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_DaySaleReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UpdateStockControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ViewStockEmployeeForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
