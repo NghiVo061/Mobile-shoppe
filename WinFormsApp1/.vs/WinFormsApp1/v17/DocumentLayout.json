@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminloginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\TETS\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -129,8 +129,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:49:23.271Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T14:49:23.271Z"
             },
             {
               "$type": "Document",
@@ -142,8 +141,7 @@
               "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAEwBIAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T15:03:58.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T15:03:58.412Z"
             },
             {
               "$type": "Document",
@@ -153,7 +151,7 @@
               "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\Program.cs",
               "RelativeToolTip": "WinFormsApp1\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T14:45:33.212Z",
               "EditorCaption": ""
@@ -167,8 +165,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\LoginForm.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:46:53.746Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T14:46:53.746Z"
             },
             {
               "$type": "Document",
@@ -180,8 +177,7 @@
               "RelativeToolTip": "WinFormsApp1\\LoginForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:44:55.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T14:44:55.551Z"
             },
             {
               "$type": "Document",
@@ -193,8 +189,7 @@
               "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.Designer.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAAAgwJEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T19:04:44.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T19:04:44.768Z"
             },
             {
               "$type": "Document",
@@ -205,8 +200,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:49:08.886Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T17:49:08.886Z"
             },
             {
               "$type": "Document",
@@ -230,8 +224,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddModelControl.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AddModelControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:06:36.959Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T17:06:36.959Z"
             },
             {
               "$type": "Document",
@@ -243,8 +236,7 @@
               "RelativeToolTip": "WinFormsApp1\\AddModelControl.Designer.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAgwIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:24:41.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:24:41.515Z"
             },
             {
               "$type": "Document",
@@ -256,8 +248,7 @@
               "RelativeToolTip": "WinFormsApp1\\AddMobileControl.Designer.cs",
               "ViewState": "AgIAAKgAAAAAAAAAAAAAAL0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:06:05.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:06:05.993Z"
             },
             {
               "$type": "Document",
@@ -281,8 +272,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddMobileControl.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AddMobileControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:04:18.916Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T17:04:18.916Z"
             },
             {
               "$type": "Document",
@@ -294,8 +284,7 @@
               "RelativeToolTip": "WinFormsApp1\\AddCompanyControl.Designer.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAAgwFgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:03:45.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:03:45.994Z"
             },
             {
               "$type": "Document",
@@ -306,8 +295,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddEmployeeControl.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AddEmployeeControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:30:30.161Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T17:30:30.161Z"
             },
             {
               "$type": "Document",
@@ -331,8 +319,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddCompanyControl.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AddCompanyControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:37:08.907Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T16:37:08.907Z"
             },
             {
               "$type": "Document",
@@ -344,8 +331,7 @@
               "RelativeToolTip": "WinFormsApp1\\AddEmployeeControl.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAEwBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:07:01.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T16:07:01.217Z"
             },
             {
               "$type": "Document",
@@ -381,8 +367,7 @@
               "RelativeToolTip": "WinFormsApp1\\LoginForm.Designer.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:56:59.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T14:56:59.446Z"
             },
             {
               "$type": "Document",
