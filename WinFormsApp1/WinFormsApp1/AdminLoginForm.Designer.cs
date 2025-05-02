@@ -86,6 +86,7 @@ namespace WinFormsApp1
             // btnAdminLogin
             // 
             btnAdminLogin.BackColor = Color.FromArgb(64, 64, 64);
+            btnAdminLogin.FlatStyle = FlatStyle.Flat;
             btnAdminLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdminLogin.ForeColor = Color.White;
             btnAdminLogin.Location = new Point(588, 338);
@@ -118,7 +119,7 @@ namespace WinFormsApp1
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(751, 440);
+            ClientSize = new Size(772, 447);
             Controls.Add(linkBackToLogin);
             Controls.Add(btnAdminLogin);
             Controls.Add(txtAdminPassword);

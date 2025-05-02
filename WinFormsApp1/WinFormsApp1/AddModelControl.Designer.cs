@@ -40,65 +40,73 @@
             // modelId
             // 
             modelId.AutoSize = true;
-            modelId.Location = new Point(62, 86);
+            modelId.Location = new Point(78, 108);
+            modelId.Margin = new Padding(4, 0, 4, 0);
             modelId.Name = "modelId";
-            modelId.Size = new Size(71, 20);
+            modelId.Size = new Size(86, 25);
             modelId.TabIndex = 0;
             modelId.Text = "Model ID";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(62, 138);
+            label2.Location = new Point(78, 172);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(116, 20);
+            label2.Size = new Size(141, 25);
             label2.TabIndex = 1;
             label2.Text = "Company Name";
             // 
             // modelNumber
             // 
             modelNumber.AutoSize = true;
-            modelNumber.Location = new Point(62, 193);
+            modelNumber.Location = new Point(78, 241);
+            modelNumber.Margin = new Padding(4, 0, 4, 0);
             modelNumber.Name = "modelNumber";
-            modelNumber.Size = new Size(96, 20);
+            modelNumber.Size = new Size(115, 25);
             modelNumber.TabIndex = 2;
             modelNumber.Text = "Model Name";
             // 
             // txtModelID
             // 
-            txtModelID.Location = new Point(184, 86);
+            txtModelID.Location = new Point(230, 108);
+            txtModelID.Margin = new Padding(4, 4, 4, 4);
             txtModelID.Name = "txtModelID";
-            txtModelID.Size = new Size(109, 27);
+            txtModelID.Size = new Size(135, 31);
             txtModelID.TabIndex = 3;
             // 
             // txtModelNumber
             // 
-            txtModelNumber.Location = new Point(184, 186);
+            txtModelNumber.Location = new Point(230, 232);
+            txtModelNumber.Margin = new Padding(4, 4, 4, 4);
             txtModelNumber.Name = "txtModelNumber";
-            txtModelNumber.Size = new Size(116, 27);
+            txtModelNumber.Size = new Size(144, 31);
             txtModelNumber.TabIndex = 4;
             // 
             // cboCompanyName
             // 
             cboCompanyName.FormattingEnabled = true;
-            cboCompanyName.Location = new Point(184, 138);
+            cboCompanyName.Location = new Point(230, 172);
+            cboCompanyName.Margin = new Padding(4, 4, 4, 4);
             cboCompanyName.Name = "cboCompanyName";
-            cboCompanyName.Size = new Size(110, 28);
+            cboCompanyName.Size = new Size(136, 33);
             cboCompanyName.TabIndex = 5;
             cboCompanyName.SelectedIndexChanged += cboCompanyName_SelectedIndexChanged;
             // 
             // button1
             // 
-            button1.Location = new Point(143, 266);
+            button1.Location = new Point(179, 332);
+            button1.Margin = new Padding(4, 4, 4, 4);
             button1.Name = "button1";
-            button1.Size = new Size(82, 36);
+            button1.Size = new Size(102, 45);
             button1.TabIndex = 6;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += btnAdd_Click;
             // 
             // AddModelControl
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(button1);
             Controls.Add(cboCompanyName);
@@ -107,8 +115,10 @@
             Controls.Add(modelNumber);
             Controls.Add(label2);
             Controls.Add(modelId);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "AddModelControl";
-            Size = new Size(531, 382);
+            Size = new Size(664, 478);
+            Load += AddModelControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }

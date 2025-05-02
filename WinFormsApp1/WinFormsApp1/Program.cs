@@ -17,7 +17,7 @@ namespace WinFormsApp1
 
             //Application.Run(new AdminForm());
 
-            //Application.Run(new EmployeeForm());
+           // Application.Run(new EmployeeForm());
             Application.Run(new LoginForm());
 
         }

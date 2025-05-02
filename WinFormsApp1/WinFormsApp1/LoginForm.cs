@@ -2,30 +2,30 @@ using mobileshope;
 using System;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WinFormsApp1
 {
     public partial class LoginForm : Form
     {
+
         private string connectionString = @"Server=RANG_DONG\MSSQLSERVER01;Database=MobileShopedb;Integrated Security=True;Encrypt=False;";
         public LoginForm()
         {
-            InitializeComponent();          
+            InitializeComponent();
         }
-
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
-            // logic chuc nang dang nhap
+            // Kiểm tra đầu vào
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-
             try
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
@@ -39,18 +39,17 @@ namespace WinFormsApp1
                     SqlDataReader reader = cmd.ExecuteReader();
                     if (reader.Read())
                     {
-                        string userName = reader["UserName"].ToString();
-                        if (userName.ToLower()=="admin1")
+                        string userName = reader["UserName"] != DBNull.Value ? reader["UserName"].ToString() : string.Empty;
+                        if (!string.IsNullOrEmpty(userName) && userName.ToLower() == "admin1")
                         {
-                            AdminForm adminForm = new AdminForm();
-                            adminForm.Show();
+                            MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                         else
                         {
                             EmployeeForm employeeForm = new EmployeeForm();
                             employeeForm.Show();
+                            this.Hide();
                         }
-                        this.Hide();
                     }
                     else
                     {
