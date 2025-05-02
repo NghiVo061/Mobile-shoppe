@@ -204,7 +204,7 @@
             Margin = new Padding(4, 4, 4, 4);
             Name = "AddEmployeeControl";
             Size = new Size(708, 592);
-            Load += AddEmployeeControl_Load;
+            Load += AddEmployeeControl_Load_1;
             ResumeLayout(false);
             PerformLayout();
         }

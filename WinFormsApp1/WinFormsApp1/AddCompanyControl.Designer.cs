@@ -38,9 +38,10 @@
             // txtCompanyId
             // 
             txtCompanyId.AutoSize = true;
-            txtCompanyId.Location = new Point(90, 84);
+            txtCompanyId.Location = new Point(112, 105);
+            txtCompanyId.Margin = new Padding(4, 0, 4, 0);
             txtCompanyId.Name = "txtCompanyId";
-            txtCompanyId.Size = new Size(91, 20);
+            txtCompanyId.Size = new Size(112, 25);
             txtCompanyId.TabIndex = 0;
             txtCompanyId.Text = "Company ID";
             txtCompanyId.Click += label1_Click;
@@ -48,46 +49,52 @@
             // txtCompanyName
             // 
             txtCompanyName.AutoSize = true;
-            txtCompanyName.Location = new Point(86, 136);
+            txtCompanyName.Location = new Point(108, 170);
+            txtCompanyName.Margin = new Padding(4, 0, 4, 0);
             txtCompanyName.Name = "txtCompanyName";
-            txtCompanyName.Size = new Size(116, 20);
+            txtCompanyName.Size = new Size(141, 25);
             txtCompanyName.TabIndex = 1;
             txtCompanyName.Text = "Company Name";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(208, 84);
+            textBox1.Location = new Point(260, 105);
+            textBox1.Margin = new Padding(4, 4, 4, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(123, 27);
+            textBox1.Size = new Size(153, 31);
             textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(208, 133);
+            textBox2.Location = new Point(260, 166);
+            textBox2.Margin = new Padding(4, 4, 4, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(128, 27);
+            textBox2.Size = new Size(159, 31);
             textBox2.TabIndex = 3;
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(156, 207);
+            btnAdd.Location = new Point(195, 259);
+            btnAdd.Margin = new Padding(4, 4, 4, 4);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(83, 30);
+            btnAdd.Size = new Size(104, 38);
             btnAdd.TabIndex = 4;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
             // 
             // AddCompanyControl
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(btnAdd);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(txtCompanyName);
             Controls.Add(txtCompanyId);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "AddCompanyControl";
-            Size = new Size(514, 396);
+            Size = new Size(642, 495);
+            Load += AddCompanyControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }

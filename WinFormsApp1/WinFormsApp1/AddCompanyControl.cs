@@ -22,10 +22,15 @@ namespace WinFormsApp1
             string companyId = txtCompanyId.Text;
             string companyName = txtCompanyName.Text;
 
-            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddCompanyControl_Load(object sender, EventArgs e)
         {
 
         }

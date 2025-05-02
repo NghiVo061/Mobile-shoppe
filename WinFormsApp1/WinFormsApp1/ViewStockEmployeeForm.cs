@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Data;
 using System.Windows.Forms;
-using Microsoft.Data.SqlClient;
+using System.Data.SqlClient;
+
 
 namespace WinFormsApp1
 {
     public partial class ViewStockEmployeeForm : UserControl
     {
-        private readonly string connectionString = @"Server=RANG_DONG\MSSQLSERVER01;Database=MobileShopedb;Integrated Security=True;Encrypt=False;";
-        private bool isModelLoaded = false; // 👈 Biến cờ
+        private string connectionString = @"Server=RANG_DONG\MSSQLSERVER01;Database=MobileShopedb;Integrated Security=True;Encrypt=False;";
+        private bool isModelLoaded = false;
 
         public ViewStockEmployeeForm()
         {

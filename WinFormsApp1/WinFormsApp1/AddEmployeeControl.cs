@@ -7,14 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.Data.SqlClient;
+using System.Data.SqlClient;
 using BCrypt.Net;
 
 namespace WinFormsApp1
 {
     public partial class AddEmployeeControl : UserControl
+
     {
-        private string connectionString = @"Server=RANG_DONG\MSSQLSERVER01;Database=MobileShopedb;Integrated Security=True;Encrypt=False";
+        //kết nối database sửa lại tên sever trong ""
+        private string connectionString = @"Server=RANG_DONG\MSSQLSERVER01;Database=MobileShopedb;Integrated Security=True;Encrypt=False;";
         public AddEmployeeControl()
         {
             InitializeComponent();
@@ -99,6 +101,11 @@ namespace WinFormsApp1
         }
 
         private void AddEmployeeControl_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddEmployeeControl_Load_1(object sender, EventArgs e)
         {
 
         }

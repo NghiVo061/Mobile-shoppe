@@ -44,91 +44,101 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(57, 72);
+            label1.Location = new Point(71, 90);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(62, 20);
+            label1.Size = new Size(75, 25);
             label1.TabIndex = 0;
             label1.Text = "Trans ID";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(56, 132);
+            label2.Location = new Point(70, 165);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(116, 20);
+            label2.Size = new Size(141, 25);
             label2.TabIndex = 1;
             label2.Text = "Company Name";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(56, 189);
+            label3.Location = new Point(70, 236);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(110, 20);
+            label3.Size = new Size(133, 25);
             label3.TabIndex = 2;
             label3.Text = "Model Number";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(57, 241);
+            label4.Location = new Point(71, 301);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(65, 20);
+            label4.Size = new Size(80, 25);
             label4.TabIndex = 3;
             label4.Text = "Quantity";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(60, 295);
+            label5.Location = new Point(75, 369);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(62, 20);
+            label5.Size = new Size(77, 25);
             label5.TabIndex = 4;
             label5.Text = "Amount";
             // 
             // txtTransID
             // 
-            txtTransID.Location = new Point(183, 72);
+            txtTransID.Location = new Point(229, 90);
+            txtTransID.Margin = new Padding(4, 4, 4, 4);
             txtTransID.Name = "txtTransID";
-            txtTransID.Size = new Size(125, 27);
+            txtTransID.Size = new Size(155, 31);
             txtTransID.TabIndex = 5;
-            
             // 
             // txtQuantity
             // 
-            txtQuantity.Location = new Point(183, 241);
+            txtQuantity.Location = new Point(229, 301);
+            txtQuantity.Margin = new Padding(4, 4, 4, 4);
             txtQuantity.Name = "txtQuantity";
-            txtQuantity.Size = new Size(125, 27);
+            txtQuantity.Size = new Size(155, 31);
             txtQuantity.TabIndex = 6;
             // 
             // txtAmount
             // 
-            txtAmount.Location = new Point(183, 292);
+            txtAmount.Location = new Point(229, 365);
+            txtAmount.Margin = new Padding(4, 4, 4, 4);
             txtAmount.Name = "txtAmount";
-            txtAmount.Size = new Size(125, 27);
+            txtAmount.Size = new Size(155, 31);
             txtAmount.TabIndex = 7;
             // 
             // cboCompanyName
             // 
             cboCompanyName.FormattingEnabled = true;
-            cboCompanyName.Location = new Point(183, 124);
+            cboCompanyName.Location = new Point(229, 155);
+            cboCompanyName.Margin = new Padding(4, 4, 4, 4);
             cboCompanyName.Name = "cboCompanyName";
-            cboCompanyName.Size = new Size(151, 28);
+            cboCompanyName.Size = new Size(188, 33);
             cboCompanyName.TabIndex = 8;
             // 
             // cboModelNumber
             // 
             cboModelNumber.FormattingEnabled = true;
-            cboModelNumber.Location = new Point(183, 181);
+            cboModelNumber.Location = new Point(229, 226);
+            cboModelNumber.Margin = new Padding(4, 4, 4, 4);
             cboModelNumber.Name = "cboModelNumber";
-            cboModelNumber.Size = new Size(151, 28);
+            cboModelNumber.Size = new Size(188, 33);
             cboModelNumber.TabIndex = 9;
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(113, 346);
+            btnUpdate.Location = new Point(141, 432);
+            btnUpdate.Margin = new Padding(4, 4, 4, 4);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(94, 29);
+            btnUpdate.Size = new Size(118, 36);
             btnUpdate.TabIndex = 10;
             btnUpdate.Text = "UPDATE";
             btnUpdate.UseVisualStyleBackColor = true;
@@ -136,7 +146,7 @@
             // 
             // UpdateStockControl
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(btnUpdate);
             Controls.Add(cboModelNumber);
@@ -149,8 +159,10 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "UpdateStockControl";
-            Size = new Size(510, 416);
+            Size = new Size(638, 520);
+            Load += UpdateStockControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }
