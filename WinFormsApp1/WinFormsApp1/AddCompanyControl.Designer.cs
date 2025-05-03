@@ -59,15 +59,18 @@
             // textBox1
             // 
             textBox1.Location = new Point(260, 105);
-            textBox1.Margin = new Padding(4, 4, 4, 4);
+            textBox1.Margin = new Padding(4);
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(153, 31);
             textBox1.TabIndex = 2;
+
+       
             // 
             // textBox2
             // 
             textBox2.Location = new Point(260, 166);
-            textBox2.Margin = new Padding(4, 4, 4, 4);
+            textBox2.Margin = new Padding(4);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(159, 31);
             textBox2.TabIndex = 3;
@@ -75,7 +78,7 @@
             // btnAdd
             // 
             btnAdd.Location = new Point(195, 259);
-            btnAdd.Margin = new Padding(4, 4, 4, 4);
+            btnAdd.Margin = new Padding(4);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(104, 38);
             btnAdd.TabIndex = 4;
@@ -92,7 +95,7 @@
             Controls.Add(textBox1);
             Controls.Add(txtCompanyName);
             Controls.Add(txtCompanyId);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "AddCompanyControl";
             Size = new Size(642, 495);
             Load += AddCompanyControl_Load;

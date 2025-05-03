@@ -23,28 +23,36 @@ namespace WinFormsApp1
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                SqlCommand cmd = new SqlCommand("SELECT ISNULL(MAX(TransId), 0) + 1 FROM tbl_Transaction", conn);
+                SqlCommand cmd = new SqlCommand(
+                    "SELECT TOP 1 TransId FROM tbl_Transaction " +
+                    "WHERE ISNUMERIC(SUBSTRING(TransId, 2, LEN(TransId))) = 1 " +
+                    "ORDER BY CAST(SUBSTRING(TransId, 2, LEN(TransId)) AS INT) DESC", conn);
+
                 try
                 {
                     conn.Open();
                     object result = cmd.ExecuteScalar();
+                    int nextId = 1;
+
                     if (result != null && result != DBNull.Value)
                     {
-                        int nextTransId = Convert.ToInt32(result);
-                        txtTransID.Text = nextTransId.ToString(); // Hiển thị TransId tiếp theo
+                        string lastId = result.ToString(); // T001
+                        if (lastId.StartsWith("T") && int.TryParse(lastId.Substring(1), out int numPart))
+                        {
+                            nextId = numPart + 1;
+                        }
                     }
-                    else
-                    {
-                        txtTransID.Text = "1"; // Nếu bảng rỗng, hiển thị giá trị khởi đầu là 1
-                    }
+
+                    txtTransID.Text = $"T{nextId:D3}";
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Lỗi khi tải Trans ID: " + ex.Message);
-                    txtTransID.Text = "1"; // Giá trị mặc định nếu có lỗi
+                    MessageBox.Show("Lỗi tạo Trans ID mới: " + ex.Message);
+                    txtTransID.Text = "T001";
                 }
             }
         }
+
 
         // Load danh sách Company Name vào cboCompanyName
         private void LoadCompanies()
@@ -144,7 +152,6 @@ namespace WinFormsApp1
                 return;
             }
 
-            // Cập nhật dữ liệu vào bảng tbl_Transaction
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 try
@@ -168,22 +175,23 @@ namespace WinFormsApp1
                     }
                     int modelId = Convert.ToInt32(modelIdObj);
 
-                    // Chèn vào tbl_Transaction (TransId tự động sinh)
+                    // Lấy TransId đang hiển thị
+                    string transId = txtTransID.Text;
+
+                    // Chèn vào tbl_Transaction
                     SqlCommand cmdInsert = new SqlCommand(
-                        "INSERT INTO tbl_Transaction (ModelId, Quantity, Date, Amount) " +
-                        "VALUES (@ModelId, @Quantity, @Date, @Amount); " +
-                        "SELECT SCOPE_IDENTITY();", conn); // Lấy TransId vừa chèn
+                        "INSERT INTO tbl_Transaction (TransId, ModelId, Quantity, Date, Amount) " +
+                        "VALUES (@TransId, @ModelId, @Quantity, @Date, @Amount)", conn);
+
+                    cmdInsert.Parameters.AddWithValue("@TransId", transId);
                     cmdInsert.Parameters.AddWithValue("@ModelId", modelId);
                     cmdInsert.Parameters.AddWithValue("@Quantity", qty);
                     cmdInsert.Parameters.AddWithValue("@Date", DateTime.Now);
                     cmdInsert.Parameters.AddWithValue("@Amount", amt);
 
-                    // Lấy TransId vừa chèn
-                    decimal newTransId = Convert.ToDecimal(cmdInsert.ExecuteScalar());
-                    // Cập nhật TransId trên giao diện (giá trị tiếp theo)
-                    txtTransID.Text = (newTransId + 1).ToString();
+                    cmdInsert.ExecuteNonQuery(); // Thực thi một lần duy nhất
 
-                    // Cập nhật AvailableQty trong tbl_Model
+                    // Cập nhật tồn kho
                     SqlCommand cmdUpdateQty = new SqlCommand(
                         "UPDATE tbl_Model " +
                         "SET AvailableQty = ISNULL(AvailableQty, 0) + @Quantity " +
@@ -194,9 +202,10 @@ namespace WinFormsApp1
 
                     MessageBox.Show("Cập nhật kho thành công!");
 
-                    // Xóa các trường Quantity và Amount sau khi update thành công
+                    // Xóa các trường và tạo TransId mới
                     txtQuantity.Text = "";
                     txtAmount.Text = "";
+                    LoadLatestTransId(); // Tạo TransId mới tránh trùng
                 }
                 catch (Exception ex)
                 {
@@ -205,7 +214,13 @@ namespace WinFormsApp1
             }
         }
 
+
         private void UpdateStockControl_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTransID_TextChanged(object sender, EventArgs e)
         {
 
         }

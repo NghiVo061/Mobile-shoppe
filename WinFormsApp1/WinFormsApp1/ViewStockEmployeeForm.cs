@@ -54,8 +54,10 @@ namespace WinFormsApp1
         {
             try
             {
-                if (comboCompanyName.SelectedValue != null && int.TryParse(comboCompanyName.SelectedValue.ToString(), out int compId))
+                if (comboCompanyName.SelectedValue != null)
                 {
+                    string compId = comboCompanyName.SelectedValue.ToString();
+
                     using (SqlConnection conn = new SqlConnection(connectionString))
                     {
                         conn.Open();
@@ -65,14 +67,23 @@ namespace WinFormsApp1
                         DataTable dt = new DataTable();
                         da.Fill(dt);
 
-                        comboModelNo.SelectedIndexChanged -= comboModelNo_SelectedIndexChanged; // Tạm ngắt sự kiện
+                        comboModelNo.SelectedIndexChanged -= comboModelNo_SelectedIndexChanged;
                         comboModelNo.DataSource = dt;
                         comboModelNo.DisplayMember = "ModelNum";
                         comboModelNo.ValueMember = "ModelId";
-                        comboModelNo.SelectedIndex = 0; // chọn dòng đầu tiên
-                        comboModelNo.SelectedIndexChanged += comboModelNo_SelectedIndexChanged; // gắn lại sự kiện
 
-                        LoadAvailableQty(); // gọi trực tiếp để hiển thị luôn
+                        if (dt.Rows.Count > 0)
+                        {
+                            comboModelNo.SelectedIndex = 0;
+                            LoadAvailableQty(); // gọi nếu có dữ liệu
+                        }
+                        else
+                        {
+                            comboModelNo.SelectedIndex = -1;
+                            txtAvailable.Text = "0"; // reset nếu không có model
+                        }
+
+                        comboModelNo.SelectedIndexChanged += comboModelNo_SelectedIndexChanged;
                     }
                 }
             }
@@ -81,6 +92,8 @@ namespace WinFormsApp1
                 MessageBox.Show("Error loading models: " + ex.Message);
             }
         }
+
+
 
         private void comboModelNo_SelectedIndexChanged(object? sender, EventArgs e)
         {

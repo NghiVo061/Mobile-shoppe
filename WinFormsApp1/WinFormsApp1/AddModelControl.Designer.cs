@@ -70,15 +70,17 @@
             // txtModelID
             // 
             txtModelID.Location = new Point(230, 108);
-            txtModelID.Margin = new Padding(4, 4, 4, 4);
+            txtModelID.Margin = new Padding(4);
             txtModelID.Name = "txtModelID";
+            txtModelID.ReadOnly = true;
             txtModelID.Size = new Size(135, 31);
             txtModelID.TabIndex = 3;
+          
             // 
             // txtModelNumber
             // 
             txtModelNumber.Location = new Point(230, 232);
-            txtModelNumber.Margin = new Padding(4, 4, 4, 4);
+            txtModelNumber.Margin = new Padding(4);
             txtModelNumber.Name = "txtModelNumber";
             txtModelNumber.Size = new Size(144, 31);
             txtModelNumber.TabIndex = 4;
@@ -87,7 +89,7 @@
             // 
             cboCompanyName.FormattingEnabled = true;
             cboCompanyName.Location = new Point(230, 172);
-            cboCompanyName.Margin = new Padding(4, 4, 4, 4);
+            cboCompanyName.Margin = new Padding(4);
             cboCompanyName.Name = "cboCompanyName";
             cboCompanyName.Size = new Size(136, 33);
             cboCompanyName.TabIndex = 5;
@@ -96,7 +98,7 @@
             // button1
             // 
             button1.Location = new Point(179, 332);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
             button1.Size = new Size(102, 45);
             button1.TabIndex = 6;
@@ -115,7 +117,7 @@
             Controls.Add(modelNumber);
             Controls.Add(label2);
             Controls.Add(modelId);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "AddModelControl";
             Size = new Size(664, 478);
             Load += AddModelControl_Load;

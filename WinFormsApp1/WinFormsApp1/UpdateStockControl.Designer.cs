@@ -94,15 +94,16 @@
             // txtTransID
             // 
             txtTransID.Location = new Point(229, 90);
-            txtTransID.Margin = new Padding(4, 4, 4, 4);
+            txtTransID.Margin = new Padding(4);
             txtTransID.Name = "txtTransID";
             txtTransID.Size = new Size(155, 31);
             txtTransID.TabIndex = 5;
+            txtTransID.TextChanged += txtTransID_TextChanged;
             // 
             // txtQuantity
             // 
             txtQuantity.Location = new Point(229, 301);
-            txtQuantity.Margin = new Padding(4, 4, 4, 4);
+            txtQuantity.Margin = new Padding(4);
             txtQuantity.Name = "txtQuantity";
             txtQuantity.Size = new Size(155, 31);
             txtQuantity.TabIndex = 6;
@@ -110,7 +111,7 @@
             // txtAmount
             // 
             txtAmount.Location = new Point(229, 365);
-            txtAmount.Margin = new Padding(4, 4, 4, 4);
+            txtAmount.Margin = new Padding(4);
             txtAmount.Name = "txtAmount";
             txtAmount.Size = new Size(155, 31);
             txtAmount.TabIndex = 7;
@@ -119,7 +120,7 @@
             // 
             cboCompanyName.FormattingEnabled = true;
             cboCompanyName.Location = new Point(229, 155);
-            cboCompanyName.Margin = new Padding(4, 4, 4, 4);
+            cboCompanyName.Margin = new Padding(4);
             cboCompanyName.Name = "cboCompanyName";
             cboCompanyName.Size = new Size(188, 33);
             cboCompanyName.TabIndex = 8;
@@ -128,7 +129,7 @@
             // 
             cboModelNumber.FormattingEnabled = true;
             cboModelNumber.Location = new Point(229, 226);
-            cboModelNumber.Margin = new Padding(4, 4, 4, 4);
+            cboModelNumber.Margin = new Padding(4);
             cboModelNumber.Name = "cboModelNumber";
             cboModelNumber.Size = new Size(188, 33);
             cboModelNumber.TabIndex = 9;
@@ -136,7 +137,7 @@
             // btnUpdate
             // 
             btnUpdate.Location = new Point(141, 432);
-            btnUpdate.Margin = new Padding(4, 4, 4, 4);
+            btnUpdate.Margin = new Padding(4);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(118, 36);
             btnUpdate.TabIndex = 10;
@@ -159,7 +160,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "UpdateStockControl";
             Size = new Size(638, 520);
             Load += UpdateStockControl_Load;

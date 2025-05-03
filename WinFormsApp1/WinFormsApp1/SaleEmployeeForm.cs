@@ -52,8 +52,10 @@ namespace WinFormsApp1
         {
             try
             {
-                if (comboCompanyName.SelectedValue != null && int.TryParse(comboCompanyName.SelectedValue.ToString(), out int selectedCompId))
+                if (comboCompanyName.SelectedValue != null)
                 {
+                    string selectedCompId = comboCompanyName.SelectedValue.ToString();
+
                     using (SqlConnection conn = new SqlConnection(connectionString))
                     {
                         conn.Open();
@@ -66,7 +68,7 @@ namespace WinFormsApp1
 
                         comboModelNo.DataSource = dt;
                         comboModelNo.DisplayMember = "ModelNum";
-                        comboModelNo.ValueMember = "ModelNum"; // chọn luôn theo ModelNum
+                        comboModelNo.ValueMember = "ModelNum";
                     }
                 }
             }
@@ -75,6 +77,7 @@ namespace WinFormsApp1
                 MessageBox.Show("Error loading model numbers: " + ex.Message);
             }
         }
+
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {

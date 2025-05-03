@@ -14,7 +14,6 @@ namespace WinFormsApp1
     {
         private string connectionString = @"Server=RANG_DONG\MSSQLSERVER01;Database=MobileShopedb;Integrated Security=True;Encrypt=False;";
 
-
         public AddModelControl()
         {
             InitializeComponent();
@@ -24,9 +23,8 @@ namespace WinFormsApp1
             if (cboCompanyName.Items.Count > 0)
                 cboCompanyName.SelectedIndex = 0;
 
-            // Cho phép nhập ModelID thay vì vô hiệu hóa
-            // txtModelID.Enabled = false; // Xóa dòng này
-            // txtModelID.Text = "Auto-generated"; // Xóa dòng này
+            txtModelID.ReadOnly = true; // Cho readonly
+            SetNextModelID(); // Tự động sinh ID
         }
 
         private void LoadCompanies()
@@ -45,11 +43,10 @@ namespace WinFormsApp1
                             while (reader.Read())
                             {
                                 companies.Add(new { CompanyID = reader.GetString(0), CompanyName = reader.GetString(1) });
-
                             }
                             cboCompanyName.DataSource = companies;
-                            cboCompanyName.DisplayMember = "CompanyName"; // Hiển thị CompanyName
-                            cboCompanyName.ValueMember = "CompanyID";     // Giá trị là CompanyID
+                            cboCompanyName.DisplayMember = "CompanyName";
+                            cboCompanyName.ValueMember = "CompanyID";
                         }
                     }
                 }
@@ -60,28 +57,47 @@ namespace WinFormsApp1
             }
         }
 
+        private void SetNextModelID()
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    string query = "SELECT ISNULL(MAX(ModelID), 0) + 1 FROM tbl_Model";
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        int nextId = (int)command.ExecuteScalar();
+                        txtModelID.Text = nextId.ToString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Không thể tạo Model ID mới: " + ex.Message);
+            }
+        }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             var selectedCompany = cboCompanyName.SelectedItem;
             string modelNumber = txtModelNumber.Text;
-            string modelIdText = txtModelID.Text; // Lấy ModelID từ trường nhập liệu
+            string modelIdText = txtModelID.Text;
 
-            // Kiểm tra dữ liệu đầu vào
-            if (selectedCompany == null || string.IsNullOrWhiteSpace(modelNumber) || string.IsNullOrWhiteSpace(modelIdText))
+            if (selectedCompany == null || string.IsNullOrWhiteSpace(modelNumber))
             {
-                MessageBox.Show("Vui lòng nhập đầy đủ thông tin: Tên công ty, Model ID và Model Name.");
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin: Tên công ty và Model Name.");
                 return;
             }
 
-            // Chuyển đổi ModelID thành số nguyên
             if (!int.TryParse(modelIdText, out int modelId))
             {
-                MessageBox.Show("Model ID phải là một số hợp lệ.");
+                MessageBox.Show("Model ID không hợp lệ.");
                 return;
             }
 
-            string companyId = (string)cboCompanyName.SelectedValue; // Lấy CompanyID từ ValueMember
-            string companyName = cboCompanyName.Text;         // Lấy CompanyName từ DisplayMember
+            string companyId = (string)cboCompanyName.SelectedValue;
+            string companyName = cboCompanyName.Text;
 
             try
             {
@@ -89,13 +105,13 @@ namespace WinFormsApp1
                 {
                     connection.Open();
                     string query = "INSERT INTO tbl_Model (ModelID, CompID, ModelNum, AvailableQty) " +
-                                 "VALUES (@ModelID, @CompID, @ModelNum, @AvailableQty)";
+                                   "VALUES (@ModelID, @CompID, @ModelNum, @AvailableQty)";
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
-                        command.Parameters.AddWithValue("@ModelID", modelId);      // Sử dụng ModelID do người dùng nhập
+                        command.Parameters.AddWithValue("@ModelID", modelId);
                         command.Parameters.AddWithValue("@CompID", companyId);
                         command.Parameters.AddWithValue("@ModelNum", modelNumber);
-                        command.Parameters.AddWithValue("@AvailableQty", 0);       // Mặc định là 0
+                        command.Parameters.AddWithValue("@AvailableQty", 0);
 
                         command.ExecuteNonQuery();
                     }
@@ -103,15 +119,13 @@ namespace WinFormsApp1
 
                 MessageBox.Show($"Đã thêm Model:\nCông ty: {companyName}\nModel ID: {modelId}, Model: {modelNumber}");
 
-                // Xóa nội dung sau khi thêm thành công
-                txtModelID.Text = "";
                 txtModelNumber.Text = "";
+                SetNextModelID(); // Tạo ModelID mới sau khi thêm
             }
             catch (Exception ex)
             {
-                // Kiểm tra lỗi trùng lặp ModelID (nếu có khóa chính)
                 if (ex.Message.Contains("duplicate"))
-                    MessageBox.Show("Model ID đã tồn tại. Vui lòng chọn ID khác.");
+                    MessageBox.Show("Model ID đã tồn tại. Vui lòng thử lại.");
                 else
                     MessageBox.Show($"Lỗi khi thêm model: {ex.Message}");
             }
@@ -119,12 +133,12 @@ namespace WinFormsApp1
 
         private void cboCompanyName_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Để trống hoặc thêm logic khác nếu cần
+            // có thể thêm logic nếu cần
         }
 
         private void AddModelControl_Load(object sender, EventArgs e)
         {
-
+            // có thể xử lý gì đó khi load
         }
     }
 }
