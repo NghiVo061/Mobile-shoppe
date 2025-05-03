@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\adminloginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminloginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\TETS\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\viewstockemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\viewstockemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\addcompanycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\TETS\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -85,18 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\TETS\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\adminloginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminloginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\TETS\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\addmobilecontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,36 +146,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewStockEmployeeForm.cs [Design]",
-              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\ViewStockEmployeeForm.cs",
-              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\ViewStockEmployeeForm.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AdminForm.cs",
+              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\AdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:47:09.975Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T17:49:08.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AdminLoginForm.Designer.cs",
+              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.Designer.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAKcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T19:04:44.768Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AdminLoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AdminLoginForm.cs",
+              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:49:23.271Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminLoginForm.cs",
+              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AdminLoginForm.cs",
+              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs",
+              "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T15:03:58.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ViewStockEmployeeForm.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\ViewStockEmployeeForm.cs",
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.cs",
               "RelativeToolTip": "WinFormsApp1\\ViewStockEmployeeForm.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T14:47:11.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "ViewStockEmployeeForm.Designer.cs",
+              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ViewStockEmployeeForm.Designer.cs",
+              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\ViewStockEmployeeForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:47:08.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SaleEmployeeForm.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\SaleEmployeeForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\SaleEmployeeForm.cs",
@@ -188,19 +236,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ViewStockEmployeeForm.Designer.cs",
-              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\ViewStockEmployeeForm.Designer.cs",
-              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.Designer.cs",
-              "RelativeToolTip": "WinFormsApp1\\ViewStockEmployeeForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ViewStockEmployeeForm.cs [Design]",
+              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ViewStockEmployeeForm.cs",
+              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\ViewStockEmployeeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:47:08.471Z"
+              "WhenOpened": "2025-05-02T14:47:09.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "SaleEmployeeForm.cs [Design]",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\SaleEmployeeForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\SaleEmployeeForm.cs",
@@ -211,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "SearchCustomerEmployeeForm.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\SearchCustomerEmployeeForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\SearchCustomerEmployeeForm.cs",
@@ -224,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "SearchCustomerEmployeeForm.cs [Design]",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\SearchCustomerEmployeeForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\SearchCustomerEmployeeForm.cs",
@@ -235,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "UpdateStockControl.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\UpdateStockControl.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\UpdateStockControl.cs",
@@ -248,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "UpdateStockControl.cs [Design]",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\UpdateStockControl.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\UpdateStockControl.cs",
@@ -259,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "AddModelControl.resx",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddModelControl.resx",
               "RelativeDocumentMoniker": "WinFormsApp1\\AddModelControl.resx",
@@ -270,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "AddModelControl.cs [Design]",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddModelControl.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AddModelControl.cs",
@@ -281,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "AddModelControl.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddModelControl.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AddModelControl.cs",
@@ -293,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "AddModelControl.Designer.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddModelControl.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AddModelControl.Designer.cs",
@@ -305,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AddEmployeeControl.cs [Design]",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddEmployeeControl.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AddEmployeeControl.cs",
@@ -316,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "AddCompanyControl.Designer.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddCompanyControl.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AddCompanyControl.Designer.cs",
@@ -328,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "AddCompanyControl.cs [Design]",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddCompanyControl.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AddCompanyControl.cs",
@@ -339,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "AddCompanyControl.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddCompanyControl.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AddCompanyControl.cs",
@@ -351,18 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdminLoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AdminLoginForm.cs",
-              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:49:23.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\Program.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
@@ -374,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\LoginForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\LoginForm.cs",
@@ -387,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\LoginForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\LoginForm.cs",
@@ -395,41 +431,6 @@
               "RelativeToolTip": "WinFormsApp1\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T14:46:53.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AdminLoginForm.cs",
-              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AdminLoginForm.cs",
-              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs",
-              "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBIAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T15:03:58.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AdminLoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AdminLoginForm.Designer.cs",
-              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.Designer.cs",
-              "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.Designer.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAgwJEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T19:04:44.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AdminForm.cs [Design]",
-              "DocumentMoniker": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AdminForm.cs",
-              "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminForm.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\AdminForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:49:08.886Z"
             },
             {
               "$type": "Document",
