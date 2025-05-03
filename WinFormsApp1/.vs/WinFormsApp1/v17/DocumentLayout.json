@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\saleemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\saleemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\TETS\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\saleemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\saleemployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\searchcustomeremployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\searchcustomeremployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\TETS\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\searchcustomeremployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\searchcustomeremployeeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -39,7 +39,7 @@
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\updatestockcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|c:\\tets\\mobile-shoppe\\winformsapp1\\winformsapp1\\updatestockcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|C:\\TETS\\mobile-shoppe\\WinFormsApp1\\winformsapp1\\updatestockcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{01FA993C-B9E4-47EE-B663-964DB9A4C025}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\updatestockcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -168,7 +168,7 @@
               "RelativeDocumentMoniker": "WinFormsApp1\\ViewStockEmployeeForm.cs",
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\ViewStockEmployeeForm.cs",
               "RelativeToolTip": "WinFormsApp1\\ViewStockEmployeeForm.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAwwF4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T14:47:11.543Z",
               "EditorCaption": ""
@@ -196,8 +196,7 @@
               "RelativeToolTip": "WinFormsApp1\\ViewStockEmployeeForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:47:08.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T14:47:08.471Z"
             },
             {
               "$type": "Document",
@@ -208,8 +207,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\SaleEmployeeForm.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\SaleEmployeeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T08:02:05.804Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-03T08:02:05.804Z"
             },
             {
               "$type": "Document",
@@ -233,8 +231,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\SearchCustomerEmployeeForm.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\SearchCustomerEmployeeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T08:05:06.222Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-03T08:05:06.222Z"
             },
             {
               "$type": "Document",
@@ -258,8 +255,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\UpdateStockControl.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\UpdateStockControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T07:28:24.87Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-03T07:28:24.87Z"
             },
             {
               "$type": "Document",
@@ -270,8 +266,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddModelControl.resx",
               "RelativeToolTip": "WinFormsApp1\\AddModelControl.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-03T07:22:27.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T07:22:27.564Z"
             },
             {
               "$type": "Document",
@@ -282,8 +277,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddModelControl.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AddModelControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:06:36.959Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T17:06:36.959Z"
             },
             {
               "$type": "Document",
@@ -295,8 +289,7 @@
               "RelativeToolTip": "WinFormsApp1\\AddModelControl.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAAAgwJAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:06:38.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:06:38.659Z"
             },
             {
               "$type": "Document",
@@ -308,8 +301,7 @@
               "RelativeToolTip": "WinFormsApp1\\AddModelControl.Designer.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAQwE0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:24:41.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:24:41.515Z"
             },
             {
               "$type": "Document",
@@ -320,8 +312,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddEmployeeControl.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AddEmployeeControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:30:30.161Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T17:30:30.161Z"
             },
             {
               "$type": "Document",
@@ -333,8 +324,7 @@
               "RelativeToolTip": "WinFormsApp1\\AddCompanyControl.Designer.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:03:45.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:03:45.994Z"
             },
             {
               "$type": "Document",
@@ -345,8 +335,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AddCompanyControl.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AddCompanyControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:37:08.907Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T16:37:08.907Z"
             },
             {
               "$type": "Document",
@@ -358,8 +347,7 @@
               "RelativeToolTip": "WinFormsApp1\\AddCompanyControl.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T17:30:25.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T17:30:25.642Z"
             },
             {
               "$type": "Document",
@@ -370,8 +358,7 @@
               "ToolTip": "C:\\TETS\\mobile-shoppe\\WinFormsApp1\\WinFormsApp1\\AdminLoginForm.cs [Design]",
               "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:49:23.271Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T14:49:23.271Z"
             },
             {
               "$type": "Document",
@@ -383,8 +370,7 @@
               "RelativeToolTip": "WinFormsApp1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:45:33.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T14:45:33.212Z"
             },
             {
               "$type": "Document",
@@ -396,7 +382,8 @@
               "RelativeToolTip": "WinFormsApp1\\LoginForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T14:44:55.551Z"
+              "WhenOpened": "2025-05-02T14:44:55.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -431,8 +418,7 @@
               "RelativeToolTip": "WinFormsApp1\\AdminLoginForm.Designer.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAAAgwJEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T19:04:44.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T19:04:44.768Z"
             },
             {
               "$type": "Document",
