@@ -104,8 +104,8 @@ namespace WinFormsApp1
 
                     // Insert vào bảng Sales
                     SqlCommand cmdSale = new SqlCommand(
-        "INSERT INTO tbl_Sales (CustId, IMEINo, Price) " +
-        "VALUES (@custid, @imei, @price)", conn);
+     "INSERT INTO tbl_Sales (CustId, IMEINo, Price, PurchaseDate) VALUES (@custid, @imei, @price, GETDATE())", conn);
+
 
                     cmdSale.Parameters.AddWithValue("@custid", customerId);
                     cmdSale.Parameters.AddWithValue("@imei", comboIMEI.Text);

@@ -191,10 +191,10 @@ namespace WinFormsApp1
 
                     cmdInsert.ExecuteNonQuery(); // Thực thi một lần duy nhất
 
-                    // Cập nhật tồn kho
+                    // Cập nhật tồn kho (Gán trực tiếp số lượng nhập vào)
                     SqlCommand cmdUpdateQty = new SqlCommand(
                         "UPDATE tbl_Model " +
-                        "SET AvailableQty = ISNULL(AvailableQty, 0) + @Quantity " +
+                        "SET AvailableQty = @Quantity " + // Gán trực tiếp số lượng nhập vào
                         "WHERE ModelId = @ModelId", conn);
                     cmdUpdateQty.Parameters.AddWithValue("@Quantity", qty);
                     cmdUpdateQty.Parameters.AddWithValue("@ModelId", modelId);

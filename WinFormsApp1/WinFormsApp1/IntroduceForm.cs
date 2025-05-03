@@ -1,3 +1,4 @@
+
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -33,5 +34,16 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void lblTeacher_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblMember1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
+
 }

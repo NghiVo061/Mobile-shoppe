@@ -78,5 +78,26 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            panel2.Controls.Add(linkForgotPass);
+
+        }
+        private void linkForgotPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                // Mở ForgetPassForm và ẩn LoginForm
+                ForgetPassForm forgetPassForm = new ForgetPassForm();
+                forgetPassForm.Show();
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi mở ForgetPassForm: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
     }
 }

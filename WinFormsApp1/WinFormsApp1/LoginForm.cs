@@ -18,44 +18,52 @@ namespace WinFormsApp1
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text;
-            string password = txtPassword.Text;
+            string passwordInput = txtPassword.Text;
 
-            // Kiểm tra đầu vào
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(passwordInput))
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+
             try
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    string query = "SELECT UserName, EmployeeName FROM tbl_User WHERE UserName = @username AND PWD = @password";
+                    string query = "SELECT UserName, PWD, EmployeeName FROM tbl_User WHERE UserName = @username";
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@username", username);
-                    cmd.Parameters.AddWithValue("@password", password);
 
                     SqlDataReader reader = cmd.ExecuteReader();
                     if (reader.Read())
                     {
-                        string userName = reader["UserName"] != DBNull.Value ? reader["UserName"].ToString() : string.Empty;
-                        if (!string.IsNullOrEmpty(userName) && userName.ToLower() == "admin1")
+                        string storedHash = reader["PWD"]?.ToString() ?? "";
+                        string userName = reader["UserName"]?.ToString() ?? "";
+
+                        // So sánh mật khẩu người dùng nhập với mật khẩu đã băm
+                        if (BCrypt.Net.BCrypt.Verify(passwordInput, storedHash))
                         {
-                            MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            if (!string.IsNullOrEmpty(userName) && userName.ToLower() == "admin1")
+                            {
+                                MessageBox.Show("Tài khoản này không phải nhân viên!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            }
+                            else
+                            {
+                                EmployeeForm employeeForm = new EmployeeForm();
+                                employeeForm.Show();
+                                this.Hide();
+                            }
                         }
                         else
                         {
-                            EmployeeForm employeeForm = new EmployeeForm();
-                            employeeForm.Show();
-                            this.Hide();
+                            MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                     else
                     {
                         MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-                    conn.Close();
                 }
             }
             catch (Exception ex)
@@ -63,6 +71,7 @@ namespace WinFormsApp1
                 MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
@@ -96,6 +105,11 @@ namespace WinFormsApp1
             {
                 MessageBox.Show($"Lỗi khi mở ForgetPassForm: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
