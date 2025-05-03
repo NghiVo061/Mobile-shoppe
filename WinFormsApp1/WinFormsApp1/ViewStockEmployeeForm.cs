@@ -75,12 +75,12 @@ namespace WinFormsApp1
                         if (dt.Rows.Count > 0)
                         {
                             cboModelNo.SelectedIndex = 0;
-                            LoadAvailableQty(); // gọi nếu có dữ liệu
+                            LoadAvailableQty(); 
                         }
                         else
                         {
                             cboModelNo.SelectedIndex = -1;
-                            txtAvaib.Text = "0"; // reset nếu không có model
+                            txtAvaib.Text = "0"; 
                         }
 
                         cboModelNo.SelectedIndexChanged += comboModelNo_SelectedIndexChanged;
@@ -97,7 +97,7 @@ namespace WinFormsApp1
 
         private void comboModelNo_SelectedIndexChanged(object? sender, EventArgs e)
         {
-            if (isModelLoaded) // 👈 Chỉ gọi khi đã load xong danh sách
+            if (isModelLoaded) 
             {
                 LoadAvailableQty();
             }
