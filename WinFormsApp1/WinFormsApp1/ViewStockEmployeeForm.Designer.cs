@@ -32,18 +32,19 @@
             lblCompanyName = new Label();
             lblModelNumber = new Label();
             lblAvailable = new Label();
-            comboBoxCompanyName = new ComboBox();
-            comboBoxModelNumber = new ComboBox();
-            txtAvailable = new TextBox();
+            cboCompanyName = new ComboBox();
+            cboModelNo = new ComboBox();
+            txtAvaib = new TextBox();
             SuspendLayout();
             // 
             // lblViewStockTitle
             // 
             lblViewStockTitle.AutoSize = true;
             lblViewStockTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblViewStockTitle.Location = new Point(427, 119);
+            lblViewStockTitle.Location = new Point(262, 74);
+            lblViewStockTitle.Margin = new Padding(2, 0, 2, 0);
             lblViewStockTitle.Name = "lblViewStockTitle";
-            lblViewStockTitle.Size = new Size(234, 59);
+            lblViewStockTitle.Size = new Size(150, 37);
             lblViewStockTitle.TabIndex = 0;
             lblViewStockTitle.Text = "ViewStock";
             // 
@@ -51,9 +52,10 @@
             // 
             lblCompanyName.AutoSize = true;
             lblCompanyName.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblCompanyName.Location = new Point(108, 247);
+            lblCompanyName.Location = new Point(66, 154);
+            lblCompanyName.Margin = new Padding(2, 0, 2, 0);
             lblCompanyName.Name = "lblCompanyName";
-            lblCompanyName.Size = new Size(350, 45);
+            lblCompanyName.Size = new Size(214, 28);
             lblCompanyName.TabIndex = 1;
             lblCompanyName.Text = "Select Company Name:";
             // 
@@ -61,9 +63,10 @@
             // 
             lblModelNumber.AutoSize = true;
             lblModelNumber.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblModelNumber.Location = new Point(108, 340);
+            lblModelNumber.Location = new Point(66, 213);
+            lblModelNumber.Margin = new Padding(2, 0, 2, 0);
             lblModelNumber.Name = "lblModelNumber";
-            lblModelNumber.Size = new Size(339, 45);
+            lblModelNumber.Size = new Size(207, 28);
             lblModelNumber.TabIndex = 2;
             lblModelNumber.Text = "Select Model Number:";
             // 
@@ -71,56 +74,62 @@
             // 
             lblAvailable.AutoSize = true;
             lblAvailable.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblAvailable.Location = new Point(108, 429);
+            lblAvailable.Location = new Point(66, 268);
+            lblAvailable.Margin = new Padding(2, 0, 2, 0);
             lblAvailable.Name = "lblAvailable";
-            lblAvailable.Size = new Size(248, 45);
+            lblAvailable.Size = new Size(153, 28);
             lblAvailable.TabIndex = 3;
             lblAvailable.Text = "Select Available:";
-            lblAvailable.Click += label3_Click;
             // 
-            // comboBoxCompanyName
+            // cboCompanyName
             // 
-            comboBoxCompanyName.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBoxCompanyName.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboBoxCompanyName.FormattingEnabled = true;
-            comboBoxCompanyName.Location = new Point(488, 247);
-            comboBoxCompanyName.Name = "comboBoxCompanyName";
-            comboBoxCompanyName.Size = new Size(450, 45);
-            comboBoxCompanyName.TabIndex = 4;
+            cboCompanyName.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboCompanyName.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cboCompanyName.FormattingEnabled = true;
+            cboCompanyName.Location = new Point(300, 154);
+            cboCompanyName.Margin = new Padding(2);
+            cboCompanyName.Name = "cboCompanyName";
+            cboCompanyName.Size = new Size(278, 31);
+            cboCompanyName.TabIndex = 4;
+            cboCompanyName.SelectedIndexChanged += comboCompanyName_SelectedIndexChanged;
             // 
-            // comboBoxModelNumber
+            // cboModelNo
             // 
-            comboBoxModelNumber.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBoxModelNumber.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            comboBoxModelNumber.FormattingEnabled = true;
-            comboBoxModelNumber.Location = new Point(488, 340);
-            comboBoxModelNumber.Name = "comboBoxModelNumber";
-            comboBoxModelNumber.Size = new Size(450, 45);
-            comboBoxModelNumber.TabIndex = 5;
+            cboModelNo.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboModelNo.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cboModelNo.FormattingEnabled = true;
+            cboModelNo.Location = new Point(300, 213);
+            cboModelNo.Margin = new Padding(2);
+            cboModelNo.Name = "cboModelNo";
+            cboModelNo.Size = new Size(278, 31);
+            cboModelNo.TabIndex = 5;
+            cboModelNo.SelectedIndexChanged += comboModelNo_SelectedIndexChanged;
             // 
-            // txtAvailable
+            // txtAvaib
             // 
-            txtAvailable.BackColor = SystemColors.Window;
-            txtAvailable.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtAvailable.Location = new Point(488, 429);
-            txtAvailable.Name = "txtAvailable";
-            txtAvailable.ReadOnly = true;
-            txtAvailable.Size = new Size(450, 43);
-            txtAvailable.TabIndex = 6;
+            txtAvaib.BackColor = SystemColors.Window;
+            txtAvaib.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtAvaib.Location = new Point(300, 268);
+            txtAvaib.Margin = new Padding(2);
+            txtAvaib.Name = "txtAvaib";
+            txtAvaib.ReadOnly = true;
+            txtAvaib.Size = new Size(278, 30);
+            txtAvaib.TabIndex = 6;
             // 
             // ViewStockEmployeeForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(txtAvailable);
-            Controls.Add(comboBoxModelNumber);
-            Controls.Add(comboBoxCompanyName);
+            Controls.Add(txtAvaib);
+            Controls.Add(cboModelNo);
+            Controls.Add(cboCompanyName);
             Controls.Add(lblAvailable);
             Controls.Add(lblModelNumber);
             Controls.Add(lblCompanyName);
             Controls.Add(lblViewStockTitle);
+            Margin = new Padding(2);
             Name = "ViewStockEmployeeForm";
-            Size = new Size(1147, 960);
+            Size = new Size(706, 600);
             Load += ViewStockEmployeeForm_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -132,8 +141,8 @@
         private Label lblCompanyName;
         private Label lblModelNumber;
         private Label lblAvailable;
-        private ComboBox comboBoxCompanyName;
-        private ComboBox comboBoxModelNumber;
-        private TextBox txtAvailable;
+        private ComboBox cboCompanyName;
+        private ComboBox cboModelNo;
+        private TextBox txtAvaib;
     }
 }

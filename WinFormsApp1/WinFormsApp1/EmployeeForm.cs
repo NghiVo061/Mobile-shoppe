@@ -61,5 +61,10 @@ namespace WinFormsApp1
             viewStockEmployeeForm.Visible = false;
             searchCustomerEmployeeForm.Visible = true;
         }
+
+        private void panelContent_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
