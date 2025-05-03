@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,80 +13,75 @@ namespace WinFormsApp1
 {
     public partial class ucDateToDateSaleReport : UserControl
     {
+        private string connectionString = @"Server=DESKTOP-7RHBQE4\SQLEXPRESS;Database=MobileShopedb;Integrated Security=True;Encrypt=False;";
+
         public ucDateToDateSaleReport()
         {
             InitializeComponent();
-            InitializeCustomUI();
         }
-
-        private void InitializeCustomUI()
-        {
-            // Label - Starting Date
-            Label lblStart = new Label();
-            lblStart.Text = "Starting Date:";
-            lblStart.Location = new Point(30, 20);
-            lblStart.AutoSize = true;
-            this.Controls.Add(lblStart);
-
-            // DateTimePicker - Starting Date
-            DateTimePicker dtpStart = new DateTimePicker();
-            dtpStart.Name = "dtpStart";
-            dtpStart.Format = DateTimePickerFormat.Short;
-            dtpStart.Size = new Size(120, 25);
-            dtpStart.Location = new Point(130, 18);
-            this.Controls.Add(dtpStart);
-
-            // Label - Ending Date
-            Label lblEnd = new Label();
-            lblEnd.Text = "Ending Date:";
-            lblEnd.Location = new Point(280, 20);
-            lblEnd.AutoSize = true;
-            this.Controls.Add(lblEnd);
-
-            // DateTimePicker - Ending Date
-            DateTimePicker dtpEnd = new DateTimePicker();
-            dtpEnd.Name = "dtpEnd";
-            dtpEnd.Format = DateTimePickerFormat.Short;
-            dtpEnd.Size = new Size(120, 25);
-            dtpEnd.Location = new Point(380, 18);
-            this.Controls.Add(dtpEnd);
-
-            // Button - Search
-            Button btnSearch = new Button();
-            btnSearch.Text = "Search";
-            btnSearch.Location = new Point(520, 17);
-            btnSearch.Size = new Size(80, 28);
-            btnSearch.Click += BtnSearch_Click;
-            this.Controls.Add(btnSearch);
-
-            // DataGridView
-            DataGridView dgv = new DataGridView();
-            dgv.Name = "dgvSales";
-            dgv.Location = new Point(30, 60);
-            dgv.Size = new Size(700, 220);
-            dgv.ColumnCount = 5;
-            dgv.Columns[0].Name = "SId";
-            dgv.Columns[1].Name = "CompanyName";
-            dgv.Columns[2].Name = "ModelName";
-            dgv.Columns[3].Name = "IMEI No";
-            dgv.Columns[4].Name = "Price";
-            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            this.Controls.Add(dgv);
-
-            // Label - Total
-            Label lblTotal = new Label();
-            lblTotal.Name = "lblTotal";
-            lblTotal.Text = "Total Sales Amount between [Start] and [End] is = 0";
-            lblTotal.Location = new Point(30, 295);
-            lblTotal.AutoSize = true;
-            lblTotal.Font = new Font("Segoe UI", 9.5f, FontStyle.Regular);
-            this.Controls.Add(lblTotal);
-        }
-
 
         private void BtnSearch_Click(object sender, EventArgs e)
         {
-            
+            DateTime startDate = dtpStart.Value.Date;
+            DateTime endDate = dtpEnd.Value.Date;
+
+            if (startDate > endDate)
+            {
+                MessageBox.Show("Start Date cannot be after End Date.", "Invalid Date Range", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            dgvSales.Rows.Clear();
+
+            // Initialize total price
+            decimal totalPrice = 0;
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+
+                    string query = @"
+                        SELECT s.SlsId, c.CName, model.ModelNum, mob.IMEINO, s.Price
+                        FROM [dbo].[tbl_Sales] s
+                        INNER JOIN [dbo].[tbl_Mobile] mob ON s.IMEINO = mob.IMEINO
+                        INNER JOIN [dbo].[tbl_Model] model ON mob.ModelId = model.ModelId
+                        INNER JOIN [dbo].[tbl_Company] c ON model.CompId = c.CompId
+                        WHERE s.PurchaseDate BETWEEN @StartDate AND @EndDate";
+
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@StartDate", startDate);
+                        cmd.Parameters.AddWithValue("@EndDate", endDate);
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                dgvSales.Rows.Add(
+                                    reader["SlsId"].ToString(),
+                                    reader["CName"].ToString(),
+                                    reader["ModelNum"].ToString(),
+                                    reader["IMEINO"].ToString(),
+                                    reader["Price"].ToString()
+                                );
+                                if (decimal.TryParse(reader["Price"].ToString(), out decimal price))
+                                {
+                                    totalPrice += price;
+                                }
+                            }
+                        }
+                    }
+
+                    conn.Close();
+                }
+                lblTotal.Text = $"Total Sales Amount between {startDate.ToString("d")} and {endDate.ToString("d")} is = {totalPrice:C}";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error fetching sales data: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
